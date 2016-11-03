@@ -10,3 +10,15 @@
 
 .background-color { color: #FFFFFF; }
 .divider-color { background: #BDBDBD; }
+
+html, body {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.header {
+    font-family: Montserrat, Verdana, sans-serif;
+}
+
+code {
+    font-family: "Roboto Mono", Consolas, sans-serif;
+}

@@ -1,0 +1,12 @@
+/* color palette */
+.primary-color { background: #2196F3; }
+.primary-dark-color { background: #1976D2; }
+.primary-light-color { background: #BBDEFB; }
+.accent-color { background: #FF9800; }
+
+.header-text-color { color: #FFFFFF; }
+.primary-text-color { color: #212121; }
+.secondary-text-color { color: #757575; }
+
+.background-color { color: #FFFFFF; }
+.divider-color { background: #BDBDBD; }

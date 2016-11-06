@@ -1,0 +1,15 @@
+* {
+	background:white;
+	color:black;
+	font-family:times,serif;
+	text-decoration:none;
+}
+
+/* hide nav bar, images, captions */
+.navbar, img, .caption {
+	display:none;
+}
+
+footer {
+	margin-top:30pt;
+}

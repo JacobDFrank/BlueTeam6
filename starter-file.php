@@ -5,14 +5,14 @@
     <?php include 'head.php' ?>
 </head>
 <body>
-<?php include 'header.php' ?>
+    <?php include 'header.php' ?>
 
-<section class="container">
-    <section class="row">
+    <section class="container">
+        <section class="row">
 
+        </section>
     </section>
-</section>
 
-<?php include 'footer.php' ?>
+    <?php include 'footer.php' ?>
 </body>
 </html>

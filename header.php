@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="css/header.css">
   <nav class="navbar navbar-fixed-top p-a-9 nav" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">

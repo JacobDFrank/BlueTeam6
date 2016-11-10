@@ -24,3 +24,7 @@ header, footer {
 code {
     font-family: "Roboto Mono", Consolas, sans-serif;
 }
+
+.row {
+    margin: 20px;
+}

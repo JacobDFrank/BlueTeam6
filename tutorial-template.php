@@ -12,7 +12,7 @@
         <section class="row">
             <h1 class="col-md-7 col-xs-12">Tutorial</h1>
             <div class="col-md-2"></div>
-            <img src="images/jesus.jpg" alt="Picture of author" class="col-md-3 col-xs-12">
+            <img src="images/me.jpg" alt="Picture of author" class="col-md-3 col-xs-12">
         </section>
 
         <!-- topic and quiz link -->
@@ -26,12 +26,28 @@
 
         <!-- content left, picture right -->
         <section class="row">
-
+            <div class="col-md-6 col-xs-12">
+                <h2>Step n</h2>
+                <p>Description</p>
+            </div>
+            <img src="images/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
         </section>
 
         <!-- picture left, content right -->
         <section class="row">
+            <img src="images/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
+            <div class="col-md-6 col-xs-12">
+                <h2>Step n</h2>
+                <p>Description</p>
+            </div>
+        </section>
 
+        <!-- full content -->
+        <section class="row">
+            <div class="col-xs-12">
+                <h2>Step n</h2>
+                <p>Description</p>
+            </div>
         </section>
     </section>
 

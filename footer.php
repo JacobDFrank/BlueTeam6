@@ -1,7 +1,7 @@
 <script src="js/jquery-3.1.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/footer.css">
-        <footer class ="navbar-fixed-bottom">
+        <footer class ="">
         <div class="container footer-nav navbar-inner">
         <div class="row">
             <div class="col-sm-10 col-md-offset-1 text-center">
@@ -19,4 +19,3 @@
         </div>
     </div>
 </footer>
->>>>>>> origin/master

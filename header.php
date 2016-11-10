@@ -34,4 +34,6 @@
         </div>
     </div>
 </nav>
+<div id="header-spacer">&nbsp;</div>
+
             <!-- header end, keep these two lines above -->

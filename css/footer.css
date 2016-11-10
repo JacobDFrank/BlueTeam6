@@ -1,4 +1,4 @@
-* {margin:0;padding:0;} 
+* {margin:0;padding:0;}
 
 html, body {height: 100%;}
 
@@ -10,7 +10,7 @@ html, body {height: 100%;}
 #footer {position: relative;
 	margin-top: -260px; /* negative value of footer height */
 	height: 260px;
-	clear:both;} 
+	clear:both;}
 
 /*Opera Fix*/
 body:before {/* thanks to Maleika (Kohoutec)*/
@@ -26,7 +26,8 @@ margin-top:-32767px;/* thank you Erik J - negate effect of float*/
 /* Footer Styles */
 footer {
     background-color: #2196F3;
-    padding-top: 7vw !important;
+    padding-top: 2vw !important;
+		margin-top: 30px;
 }
 .footer-text p {
     color: #fff !important;
@@ -52,7 +53,7 @@ footer {
 }
 .footer-text .copyright {
     padding-left: 10vw;
-    padding-top: 3.8vw;
+    padding-top: 3vw;
     padding-bottom: 2.0vw;
     max-width: 1000px;
 }
@@ -62,16 +63,46 @@ footer {
         font-size: calc(14px + .60vw);
         color: white !important;
     }
+		footer {
+		    background-color: #2196F3;
+		}
+		.footer-text p {
+		    color: #fff !important;
+		}
+		.footer-nav ul li {
+		    padding-left: 10vw;
+		    width: 14vw;
+		    max-width: 250px !important;
+		}
+		.footer-nav.nav {
+		    padding-top: .3vw;
+		    padding-bottom: 5.4vw;
+		}
+		.footer-nav a {
+		    font-size: 12.5px;
+		    color: white !important;
+		    text-decoration: none;
+		}
+		.footer-text .special {
+		    padding-left: 10vw;
+		    padding-top: 7.8vw;
+		    max-width: 1000px;
+		}
+		.footer-text .copyright {
+		    padding-left: 10vw;
+		    padding-bottom: 2.0vw;
+		    max-width: 1000px;
+		}
 }
 @media only screen and (max-width : 990px ) {
   /* Footer Styles */
     footer {
         background-color: #2196F3;
-        padding-top: 7vh !important;
+        padding-top: 3vh !important;
     }
     .footer-text p {
         color: white !important;
-        font-size: 2vw;
+        font-size: 14px;
     }
     .footer-text .special {
         padding-left: 10vw;

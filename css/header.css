@@ -53,11 +53,16 @@ nav.navbar.navbar-fixed-top.p-a-9.nav {
 .navbar-inverse .navbar-nav > .open > a:focus {
     background: #2196F3; /* primary-color */
 }
-
-
 .icon-bar {
     background-color: white;
 }
+#header-spacer {
+  /*height: 200px;*/
+  width: 100%;
+  padding-bottom: 40px;
+  background-color: transparent;
+}
+
 
 /* Desktops */
 @media only screen and (min-width: 768px) {

@@ -8,7 +8,7 @@
 <?php include 'header.php' ?>
 
     <!-- this inline style is just a temp fix for nav bar not taking space -->
-    <section class="container" style="margin-top: 40px;">
+    <section class="container" style="margin-top: 40px; margin-bottom: 250px;">
         <!-- tutorial header and picture -->
         <section class="row tutorial_content-row">
             <h1 class="col-md-7 col-xs-12">Tutorial</h1>

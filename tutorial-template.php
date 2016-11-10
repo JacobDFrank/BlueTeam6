@@ -11,7 +11,8 @@
         <!-- tutorial header and picture -->
         <section class="row">
             <h1 class="col-md-7 col-xs-12">Tutorial</h1>
-            <img src="pic.png" alt="Picture of author" class="col-md-5 col-xs-12">
+            <div class="col-md-2"></div>
+            <img src="images/jesus.jpg" alt="Picture of author" class="col-md-3 col-xs-12">
         </section>
 
         <!-- topic and quiz link -->

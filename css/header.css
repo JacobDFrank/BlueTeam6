@@ -5,8 +5,11 @@
     background: #2196F3; /* primary-color */
     border: none;
     border-radius: 0;
-    box-shadow: 0 2px 3px #888888; 
+    box-shadow: 0 2px 3px #888888;
     overflow: visible;
+}
+nav.navbar.navbar-fixed-top.p-a-9.nav {
+    background: #2196F3;
 }
 .navbar a {
         color: white; /* header-text-color  */

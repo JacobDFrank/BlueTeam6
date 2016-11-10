@@ -24,33 +24,34 @@
             <a href="quiz.php" class="btn btn-primary col-md-4 col-xs-12">Go to quiz</a>
         </section>
 
-        <!-- content left, picture right -->
-        <section class="row tutorial_content-row">
-            <div class="col-md-6 col-xs-12">
-                <h2>Step n</h2>
-                <p>Description</p>
-            </div>
-            <img src="images/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
-        </section>
+        <section class="well">
+            <!-- content left, picture right -->
+            <section class="row tutorial_content-row well">
+                <div class="col-md-6 col-xs-12">
+                    <h2>Step n</h2>
+                    <p>Description</p>
+                </div>
+                <img src="images/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
+            </section>
 
-        <!-- picture left, content right -->
-        <section class="row tutorial_content-row">
-            <img src="images/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
-            <div class="col-md-6 col-xs-12">
-                <h2>Step n</h2>
-                <p>Description</p>
-            </div>
-        </section>
+            <!-- picture left, content right -->
+            <section class="row tutorial_content-row well">
+                <img src="images/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
+                <div class="col-md-6 col-xs-12">
+                    <h2>Step n</h2>
+                    <p>Description</p>
+                </div>
+            </section>
 
-        <!-- full content -->
-        <section class="row tutorial_content-row">
-            <div class="col-xs-12">
-                <h2>Step n</h2>
-                <p>Description</p>
-            </div>
+            <!-- full content -->
+            <section class="row tutorial_content-row well">
+                <div class="col-xs-12">
+                    <h2>Step n</h2>
+                    <p>Description</p>
+                </div>
+            </section>
         </section>
     </section>
-
     <?php include 'footer.php' ?>
 </body>
 </html>

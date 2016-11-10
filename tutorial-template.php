@@ -11,7 +11,7 @@
         <!-- tutorial header and picture -->
         <section class="row tutorial_content-row">
             <h1 class="col-md-7 col-xs-12">Tutorial</h1>
-            <div class="col-md-2"></div>
+            <div class="col-md-2"></div> <!-- spacer -->
             <img src="images/me.jpg" alt="Picture of author" class="col-md-3 col-xs-12">
         </section>
 

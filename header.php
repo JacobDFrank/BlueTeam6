@@ -20,12 +20,14 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">HTML/CSS</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Computer Security</a></li>
+                        <li><a href="#">Database Programming</a></li>
                     </ul>
                 </li>
-                <li><a href="blog.php">Blog</a></li>
+                <li><a href="blogs.php">Blog</a></li>
                 <li><a href="workshops.php">Workshops</a></li>
                 <li class="text-nowrap"><a href="webinars.php">Webinars</a></li>
                 <li><a href="faq.php">FAQ</a></li>

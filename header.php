@@ -8,15 +8,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Brand</a>
+            <a class="navbar-brand" href="#">Blue Team 6</a>
         </div>
 
         <!-- Links and dropdowns -->
         <div class="collapse navbar-collapse" id="navbar-items">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-haspopup="true" aria-expanded="false">Courses<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Action</a></li>
                         <li><a href="#">Another action</a></li>
@@ -25,6 +25,11 @@
                         <li><a href="#">Separated link</a></li>
                     </ul>
                 </li>
+                <li class="active"><a href="#">Blog<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Workshops<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Webinars<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">FAQ<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Contact<span class="sr-only">(current)</span></a></li>
             </ul>
         </div>
     </div>

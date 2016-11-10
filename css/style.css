@@ -17,59 +17,13 @@ html, body {
     font-family: Roboto, Arial, sans-serif;
 }
 
-.header {
+.header, footer {
     font-family: Montserrat, Verdana, sans-serif;
 }
 
 code {
     font-family: "Roboto Mono", Consolas, sans-serif;
 }
-
-/* navbar */
-.navbar {
-    background: #2196F3; /* primary-color */
-    color: white; /* header-text-color  */
-    border: none;
-    border-radius: 0;
-    box-shadow: 0 2px 3px #888888; /* shadow-color  */
-    overflow: visible;
-}
-
-/* brand, links, and dropdowns */
-.navbar-inverse .navbar-brand,
-.navbar-inverse .navbar-nav li,
-.navbar-inverse .navbar-nav > li > a {
-    color: white; /* header-text-color  */
-}
-
-/* mobile navbar dropdown items */
-.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: white; /* header-text-color  */
-}
-
-/* navbar toggle button (hamburger menu) */
-.navbar-inverse .navbar-toggle {
-    background: #2196F3; /* primary-color */
-    border: none;
-}
-
-.navbar-inverse .navbar-toggle:hover {
-    background: #1976D2; /* primary-dark-color */
-}
-
-/* active link */
-.navbar-inverse .navbar-nav > .active > a {
-    background: #1976D2; /* primary-dark-color */
-    color: white; /* header-text-color  */
-}
-
-/* open dropdown menu */
-.navbar-inverse .navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
-    background: #2196F3; /* primary-color */
-}
-
 .card {
     padding: 10px;
     margin: 10px;
@@ -77,20 +31,4 @@ code {
     box-shadow: 0 2px 3px #888888; /* shadow-color  */
     border-radius: 3px;
     z-index: 5;
-}
-
-/* Desktops */
-@media only screen and (min-width : 768px) {
-    /* desktop navbar dropdown items */
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-        color: #212121; /* primary-text-color */
-    }
-
-    #navbar-custom *:not(.navbar-brand) {
-        font-size: 2rem;
-    }
-
-    .navbar-brand {
-        font-size: 2.5rem;
-    }
 }

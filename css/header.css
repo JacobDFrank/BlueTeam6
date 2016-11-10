@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="css/header.css">
+
+/* navbar */
+.navbar {
+    background: #2196F3; /* primary-color */
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 3px #888888; 
+    overflow: visible;
+}
+.navbar a {
+        color: white; /* header-text-color  */
+}
+.dropdown-menu a{
+    color: #2B98F0 !important;
+}
+.navbar
+/* brand, links, and dropdowns */
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav li,
+.navbar-inverse .navbar-nav > li > a {
+    color: white; /* header-text-color  */
+}
+
+/* mobile navbar dropdown items */
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: white; /* header-text-color  */
+}
+
+/* navbar toggle button (hamburger menu) */
+.navbar-inverse .navbar-toggle {
+    background: #2196F3; /* primary-color */
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background: #1976D2; /* primary-dark-color */
+}
+
+/* active link */
+.navbar-inverse .navbar-nav > .active > a {
+    background: #1976D2; /* primary-dark-color */
+    color: white; /* header-text-color  */
+}
+
+/* open dropdown menu */
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background: #2196F3; /* primary-color */
+}
+
+
+.icon-bar {
+    background-color: white;
+}
+
+/* Desktops */
+@media only screen and (min-width: 768px) {
+    /* desktop navbar dropdown items */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #2B98F0; /* primary-text-color */
+    }
+
+    #navbar-custom *:not(.navbar-brand) {
+        font-size: 2rem;
+    }
+
+    .navbar-brand {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .dropdown-menu {
+        background-color: white !important;
+    }
+}

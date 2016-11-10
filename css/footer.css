@@ -1,0 +1,125 @@
+* {margin:0;padding:0;} 
+
+html, body {height: 100%;}
+
+#wrap-footer {min-height: 100%;}
+
+#main-footer {overflow:auto;
+	padding-bottom: 260px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -260px; /* negative value of footer height */
+	height: 260px;
+	clear:both;} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #2196F3;
+    padding-top: 7vw !important;
+}
+.footer-text p {
+    color: #fff !important;
+}
+.footer-nav ul li {
+    padding-left: 10vw;
+    width: 14vw;
+    max-width: 250px !important;
+}
+.footer-nav.nav {
+    padding-top: .3vw;
+    padding-bottom: 5.4vw;
+}
+.footer-nav a {
+    font-size: 12.5px;
+    color: white !important;
+    text-decoration: none;
+}
+.footer-text .special {
+    padding-left: 10vw;
+    padding-top: 7.8vw;
+    max-width: 1000px;
+}
+.footer-text .copyright {
+    padding-left: 10vw;
+    padding-top: 3.8vw;
+    padding-bottom: 2.0vw;
+    max-width: 1000px;
+}
+@media only screen and (min-width : 1201px) {
+    /*Footer Styler */
+    .footer-nav a {
+        font-size: calc(14px + .60vw);
+        color: white !important;
+    }
+}
+@media only screen and (max-width : 990px ) {
+  /* Footer Styles */
+    footer {
+        background-color: #2196F3;
+        padding-top: 7vh !important;
+    }
+    .footer-text p {
+        color: white !important;
+        font-size: 2vw;
+    }
+    .footer-text .special {
+        padding-left: 10vw;
+        padding-top: 8.3vh;
+/*        max-width: 1000px;*/
+    }
+     .footer-nav-links div {
+        width: 16vw;
+    }
+    .footer-nav-links div a{
+        font-size: calc(7.5px + 1.35vw) !important;
+/*        line-height: 35px !important;*/
+    }
+    .footer-text .copyright {
+        padding-left: 10vw;
+        padding-top: 4.4vh;
+        padding-bottom: 2.0vh;
+        max-width: 1000px;
+    }
+}
+@media only screen and (max-width : 767px) {
+    .footer-nav-links div a{
+        font-size: calc(7.5px + 2.35vw) !important;
+        line-height: 35px !important;
+    }
+    .footer-nav-links div {
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width : 480px) {
+    .footer-text p {
+        color: white !important;
+        font-size: 4vw;
+    }
+    .footer-nav-links div {
+        width: 100vw;
+    }
+}
+
+
+/* IMPORTANT
+
+need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+
+*/

@@ -34,6 +34,4 @@
             </div>
         </div>
     </nav>
-    <div id="wrap-footer">
-        <div id="main-footer">
             <!-- header end, keep these two lines above -->

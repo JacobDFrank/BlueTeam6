@@ -10,12 +10,17 @@
     <section class="container">
         <!-- tutorial header and picture -->
         <section class="row">
-
+            <h1 class="col-md-7 col-xs-12">Tutorial</h1>
+            <img src="pic.png" alt="Picture of author" class="col-md-5 col-xs-12">
         </section>
 
         <!-- topic and quiz link -->
         <section class="row">
-
+            <div class="col-md-8 col-xs-12">
+                <h2>Topic</h2>
+                <p>Description</p>
+            </div>
+            <a href="quiz.php" class="btn btn-primary col-md-4 col-xs-12">Go to quiz</a>
         </section>
 
         <!-- content left, picture right -->

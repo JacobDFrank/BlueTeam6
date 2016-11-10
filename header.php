@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   <nav class="navbar navbar-fixed-top p-a-9 nav" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -31,11 +32,9 @@
                    <li><a href="faq.php">FAQ</a></li>
                    <li><a class="nav-register menu-pad" href="contact.php">Contact</a></li>
                 </ul>
-
             </div>
         </div>
     </nav>
     <div id="wrap-footer">
         <div id="main-footer">
             /////////header end, keep these two lines above/////////
-          

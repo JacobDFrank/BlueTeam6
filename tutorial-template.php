@@ -5,7 +5,7 @@
     <?php include 'head.php' ?>
 </head>
 <body>
-    <?php include 'header.php' ?>
+<?php include 'header.php' ?>
 
     <section class="container">
         <!-- tutorial header and picture -->

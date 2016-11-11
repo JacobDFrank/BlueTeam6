@@ -21,7 +21,7 @@
                 <h2>Topic</h2>
                 <p>Description</p>
             </div>
-            <a href="quiz.php" class="btn btn-primary col-md-4 col-xs-12">Go to quiz</a>
+            <a href="quiz.php" class="btn btn-primary col-md-4 col-xs-12 tutorial_quiz-btn">Go to quiz</a>
         </section>
 
         <section class="well">
@@ -31,12 +31,12 @@
                     <h2>Step n</h2>
                     <p>Description</p>
                 </div>
-                <img src="images/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
+                <img src="images/tutorials/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
             </section>
 
             <!-- picture left, content right -->
             <section class="row tutorial_content-row well">
-                <img src="images/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
+                <img src="images/tutorials/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
                 <div class="col-md-6 col-xs-12">
                     <h2>Step n</h2>
                     <p>Description</p>

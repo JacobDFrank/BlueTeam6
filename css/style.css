@@ -25,6 +25,11 @@ code {
     font-family: "Roboto Mono", Consolas, sans-serif;
 }
 
+/* tutorial */
 .tutorial_content-row {
     margin: 30px;
+}
+
+.tutorial_quiz-btn {
+    margin-top: 3rem;
 }

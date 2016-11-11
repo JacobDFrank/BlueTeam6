@@ -7,9 +7,9 @@
 
 /* hide nav bar, images, captions */
 .navbar, img, .caption {
-	display:none;
+	display: none;
 }
 
 footer {
-	margin-top:30pt;
+	margin-top: 30pt;
 }

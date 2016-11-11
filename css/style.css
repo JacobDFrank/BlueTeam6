@@ -31,5 +31,6 @@ code {
 }
 
 .tutorial_quiz-btn {
-    margin-top: 3rem;
+    padding: 10px;
+    margin-bottom: 10px;
 }

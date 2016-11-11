@@ -21,7 +21,14 @@
                 <h2>Topic</h2>
                 <p>Description</p>
             </div>
-            <a href="quiz.php" class="btn btn-primary col-md-4 tutorial_quiz-btn">Go to quiz</a>
+            <div class="col-md-4">
+                <div class="row">
+                    <a href="quiz.php" class="btn btn-primary col-sm-12 tutorial_quiz-btn">Back to course</a>
+                </div>
+                <div class="row">
+                    <a href="quiz.php" class="btn btn-primary col-sm-12 tutorial_quiz-btn">Go to quiz</a>
+                </div>
+            </div>
         </section>
 
         <section class="well">

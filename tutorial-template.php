@@ -10,14 +10,14 @@
     <section class="container">
         <!-- tutorial header and picture -->
         <section class="row tutorial_content-row">
-            <h1 class="col-md-7 col-xs-12">Tutorial</h1>
+            <h1 class="col-md-7">Tutorial</h1>
             <div class="col-md-2"></div> <!-- spacer -->
             <img src="images/me.jpg" alt="Picture of author" class="col-md-3 col-xs-12">
         </section>
 
         <!-- topic and quiz link -->
         <section class="row tutorial_content-row">
-            <div class="col-md-8 col-xs-12">
+            <div class="col-md-8">
                 <h2>Topic</h2>
                 <p>Description</p>
             </div>
@@ -27,7 +27,7 @@
         <section class="well">
             <!-- content left, picture right -->
             <section class="row tutorial_content-row well">
-                <div class="col-md-6 col-xs-12">
+                <div class="col-md-6">
                     <h2>Step n</h2>
                     <p>Description</p>
                 </div>
@@ -37,7 +37,7 @@
             <!-- picture left, content right -->
             <section class="row tutorial_content-row well">
                 <img src="images/tutorials/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
-                <div class="col-md-6 col-xs-12">
+                <div class="col-md-6">
                     <h2>Step n</h2>
                     <p>Description</p>
                 </div>
@@ -45,7 +45,7 @@
 
             <!-- full content -->
             <section class="row tutorial_content-row well">
-                <div class="col-xs-12">
+                <div>
                     <h2>Step n</h2>
                     <p>Description</p>
                 </div>

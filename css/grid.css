@@ -54,7 +54,7 @@
 }
 
 /* tablet */
-@media only screen and (min-width: 600px) {
+@media (min-width: 768px) {
     .col-md-1 {
         width: 8.33%;
     }
@@ -94,7 +94,7 @@
 }
 
 /* small desktops */
-@media only screen and (min-width: 768px) {
+@media (min-width: 992px) {
     .col-lg-1 {
         width: 8.33%;
     }
@@ -133,8 +133,8 @@
     }
 }
 
-/* desktops */
-@media only screen and (min-width: 1024px) {
+/* large desktops */
+@media (min-width: 1200px) {
     .col-xl-1 {
         width: 8.33%;
     }

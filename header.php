@@ -37,5 +37,5 @@
     </div>
 </nav>
 <div id="header-spacer">&nbsp;</div>
-
+<script src="js/nav.js"></script>
             <!-- header end, keep these two lines above -->

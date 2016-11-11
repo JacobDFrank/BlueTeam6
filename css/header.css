@@ -64,19 +64,44 @@ nav.navbar.navbar-fixed-top.p-a-9.nav {
 }
 
 
+.nav > li > div {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  cursor: default;
+}
+.navbar-nav > li > div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+}
+.navbar-default .navbar-nav > li > div {
+  color: rgb(119, 119, 119);
+}
+.navbar-collapse.collapse {
+  display: none;
+}
+.dropdown-open {
+  background: #e7e7e7;
+}
+
 /* Desktops */
 @media only screen and (min-width: 768px) {
     /* desktop navbar dropdown items */
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #2B98F0; /* primary-text-color */
     }
-
     #navbar-custom *:not(.navbar-brand) {
         font-size: 2rem;
     }
-
     .navbar-brand {
         font-size: 2.5rem;
+    }
+    .dropdown:hover {
+      background: #e7e7e7;
+    }
+    .dropdown:hover > .dropdown-menu {
+      display: block;
     }
 }
 @media only screen and (max-width: 767px) {

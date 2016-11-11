@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Subject Blogs</title>
+		<title>Blogs</title>
 		<?php include 'head.php' ?>
 	</head>
 	<body>
@@ -13,7 +13,7 @@
 				<img src="images/blogs/blog.png" alt="Blog">
 			</section>
 			<section class="row well">
-				<div class="col-md-12">
+				<div>
 					<h1>Blog</h1>
 				</div>
 			</section>

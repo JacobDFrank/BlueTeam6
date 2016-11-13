@@ -11,7 +11,7 @@
 <!--<link rel="shortcut icon" href="images/favicon.png" />-->
 
 <!-- style sheets -->
-<!-- Removed Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/grid.css">
 <link rel="stylesheet" href="css/style.css" media="screen">
 <link rel="stylesheet" href="css/print.css" media="print">

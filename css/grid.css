@@ -131,6 +131,11 @@
     .col-lg-12 {
         width: 100%;
     }
+    /*added for webinars*/
+    .webinars{
+        margin:0px;
+        float:left;
+    }
 }
 
 /* large desktops */

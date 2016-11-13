@@ -19,7 +19,7 @@
         <section class="row tutorial_content-row">
             <div class="col-md-8">
                 <h2>Android</h2>
-                <p>Making a simple Android app</p>
+                <p>Making a simple Android note taking app.</p>
             </div>
             <div class="col-md-4">
                 <div class="row">
@@ -101,12 +101,26 @@
                 </div>
             </section>
 
-            <!-- full content -->
+            <!-- content left, picture right -->
             <section class="row tutorial_content-row well">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <h2>Step 6</h2>
-                    <p>First, we are going to define colors. Go to “app>src>main>res>values>colors.xml”. If the file does not exist, create it.</p>
+                    <p>Now we are going to work on the layout of the app. Go to “app>src>main>res>layout>activity_main.xml”. First thing to do is remove the default padding from the relative layout and include the toolbar. The file should now look like: <br /></p>
+                    <code>
+                        &lt;?xml version="1.0" encoding="utf-8"?&gt; <br />
+                        &lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" <br />
+                                        xmlns:tools="http://schemas.android.com/tools" <br />
+                                        android:id="@+id/activity_main" <br />
+                                        android:layout_width="match_parent" <br />
+                                        android:layout_height="match_parent" <br />
+                                        tools:context="com.alderferstudios.noteappexample.MainActivity"&gt; <br /> <br />
+
+                            &lt;include layout="@layout/toolbar" android:id="@+id/toolbar_layout"/&gt; <br /> <br />
+
+                        &lt;/RelativeLayout&gt;
+                    </code>
                 </div>
+                <img src="images/tutorials/android/empty_layout.png" alt="Empty layout" class="col-md-6">
             </section>
 
         </section>

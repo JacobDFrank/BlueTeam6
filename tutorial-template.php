@@ -10,7 +10,7 @@
     <section class="container">
         <!-- tutorial header and picture -->
         <section class="row tutorial_content-row">
-            <h1 class="col-md-7">Tutorial</h1>
+            <h1 class="col-md-7 tutorial_header">Tutorial</h1>
             <div class="col-md-2"></div> <!-- spacer -->
             <img src="images/me.jpg" alt="Picture of author" class="col-md-3 col-sm-6">
         </section>

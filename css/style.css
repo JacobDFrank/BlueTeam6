@@ -30,9 +30,28 @@ code {
 }
 
 /* homepage */
+.homepage_header {
+    text-decoration: underline;
+}
 
+.homepage_column {
+    margin: 0 0 15px 0;
+    padding: 0 15px 0 15px;
+}
+
+.homepage_section-heading {
+
+}
+
+.homepage_section-paragraph {
+    text-indent: 1em;
+}
 
 /* tutorial */
+.tutorial_header {
+    text-decoration: underline;
+}
+
 .tutorial_content-row {
     margin: 30px;
 }

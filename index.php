@@ -10,13 +10,13 @@
 <section class="container">
     <!-- logo -->
     <section class="row">
-        <img src="images/logo.jpg" alt="Team logo">
+        <img src="images/us.jpg" alt="Team logo" class="col-md-12">
     </section>
 
     <!-- title and subheader -->
     <section class="row">
         <div class="homepage_column col-md-5">
-            <h2 class="homepage_header">Title and subheader</h2>
+            <h2 class="homepage_header">Blue Team 6</h2>
         </div>
         <div class="homepage_column col-md-7"></div> <!-- spacer -->
     </section>

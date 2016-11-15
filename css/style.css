@@ -65,3 +65,8 @@ code {
 .webinars{
   margin: 20px;
 }
+
+/*Top Margin for rows*/
+.top-buffer{
+    margin-top: 20px;
+}

@@ -43,9 +43,8 @@
     <!-- goals -->
     <section class="row">
         <div class="homepage_column well">
-            <h3 class="centered">Goals</h3>
-            <p class="homepage_section-heading">Heading:</p>
-            <p class="homepage_section-paragraph">goals and stuff</p>
+            <h3 class="centered">Purpose</h3>
+            <p class="homepage_section-paragraph">The purpose of this website is to inform our users of the diverse programs and skillsets that available today. We believe that users will proactively want to learn the information that we have prepared in order to get ahead in today's competitive world. Our team has prepared Tutorials, Workshops, Quizzes, and Blogs in order to gage the user’s interest as much as possible. We believe that in order for the user to want to learn, the information must be provided to them in a way that retains their attention for the longest possible time. In order to connect to our users, we have established a blog post as well as a newsletter so that our active users will have a way to continue to use our site to learn as well as following us in our personal lives.</p>
         </div>
     </section>
 
@@ -54,7 +53,7 @@
         <div class="homepage_column col-md-10 well">
             <h3>Newsletter</h3>
             <p class="homepage_section-heading">Heading:</p>
-            <p class="homepage_section-paragraph">newsletter and stuff</p>
+            <p class="homepage_section-paragraph">newsletter</p>
         </div>
         <div class="homepage_column col-md-2"></div> <!-- spacer -->
     </section>

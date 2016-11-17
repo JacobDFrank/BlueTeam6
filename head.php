@@ -12,7 +12,6 @@
 
 <!-- style sheets -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/grid.css">
 <link rel="stylesheet" href="css/style.css" media="screen">
 <link rel="stylesheet" href="css/print.css" media="print">
 <link rel="stylesheet" href="css/header.css">

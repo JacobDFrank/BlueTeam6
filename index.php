@@ -10,6 +10,7 @@
 <section class="container">
     <!-- logo -->
     <section class="row">
+        <div class="col-md-3"></div>
         <img src="images/us.jpg" alt="Team logo" class="col-md-12">
     </section>
 

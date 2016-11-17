@@ -11,24 +11,17 @@
         <?php include("header.php"); ?>
  <!--  -->
 		<!-- HEADER / SPLASH -->
-		<div class="container-fluid">
+		<div class="container-fluid about-splash-words contact-splash-words">
 			<div class="row">
 				<div class="col-md-offset-1 col-lg-4 ">
 					<h1 class=" title">Contact</h1>
-                    <p class="subheader">Don't hesitate to drop us a line!</p>
+                    <p class="contact-subheader">Don't hesitate to drop us a line!</p>
 				</div>
-            </div>
-            <div class="col-lg-4">
-            </div>
-            <div class="row">
-                <div class="col-lg-4 ">
-                    
-                </div>
-			</div>
+      </div>
 		</div>
-
     <div class="container-fluid">
       <div class="row">
+    <div class="container-fluid contact-body-buffer ">
         <div class="col-lg-10 col-md-offset-1 ">
             <div class="col-lg-4">
             </div>

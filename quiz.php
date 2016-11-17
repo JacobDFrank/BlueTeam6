@@ -15,7 +15,7 @@
           <h1>Persons Page</h1>
         </div>
         <div class="col-lg-6">
-          <img src="./images/andrew.jpg" class="img-responsive">
+          <img src="./images/andrew.jpg" class="img-responsive pull-right">
         </div>
       </div>
       <div class="well">

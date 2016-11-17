@@ -39,11 +39,6 @@
                 </thead>
                 <tbody>
                 <?php include("workshops-table.php"); ?>
-                <tr>
-                    <td>Active</td>
-                    <td>Activeson</td>
-                    <td>act@example.com</td>
-                  </tr>
                 </tbody>
               </table>
             </div>

@@ -40,7 +40,7 @@
         </div>
     </section>
 
-    <!-- goals -->
+    <!-- purpose -->
     <section class="row">
         <div class="homepage_column well">
             <h3 class="centered">Purpose</h3>

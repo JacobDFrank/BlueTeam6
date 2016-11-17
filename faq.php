@@ -50,7 +50,7 @@
 					</p>
 				</div>	
 				<div>
-					HTML/CSS
+					<h2>HTML/CSS</h2>
 				</div>	
 				<div class = "row">
 				<p>

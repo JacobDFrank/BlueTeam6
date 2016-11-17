@@ -78,7 +78,7 @@
 				</p>
 			</div>
 			<div>
-				<h2>Andriod</h2>
+				<h2>Android</h2>
 			</div>
 			<div class = "row">
 				<p>

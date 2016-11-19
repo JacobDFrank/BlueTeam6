@@ -13,7 +13,7 @@
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid about-splash-words contact-splash-words">
 			<div class="row">
-				<div class="col-md-offset-1 col-lg-4 ">
+				<div class="col-lg-4 ">
 					<h1 class=" title">Contact</h1>
                     <p class="contact-subheader">Don't hesitate to drop us a line!</p>
 				</div>
@@ -22,7 +22,7 @@
     <div class="container-fluid">
       <div class="row">
     <div class="container-fluid contact-body-buffer ">
-        <div class="col-lg-10 col-md-offset-1 ">
+        <div class="col-lg-10">
             <div class="col-lg-4">
             </div>
             <div class="col-lg-6 contact-form">
@@ -47,6 +47,7 @@
         </div>
       </div>
     </div>
+	</div>
     <script src="js/contactScript.js"></script>
 
 		<?php include 'footer.php' ?>

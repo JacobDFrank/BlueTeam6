@@ -1,9 +1,4 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <div class="wrapper">
 <?php
 
@@ -37,5 +32,3 @@ if($result->num_rows>0){ //num_rows is meta data retrieved from the query
 
 
 ?>
-</body>
-</html>

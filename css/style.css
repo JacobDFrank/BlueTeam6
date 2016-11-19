@@ -66,10 +66,15 @@ code {
   margin: 20px;
 }
 
-/*Top Margin for rows*/
+/*General buffers for rows*/
 .top-buffer{
     margin-top: 20px;
 }
+
+.left-buffer{
+    margin-left: 20px;
+}
+
 .contact-btn{
     color: white;
     background-color: #FF9800;

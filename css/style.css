@@ -70,12 +70,13 @@ code {
     padding: 10px;
     margin-bottom: 10px;
 }
-/*Webinar */
+
+/* Webinar */
 .webinars{
   margin: 20px;
 }
 
-/*General buffers for rows*/
+/* General buffers for rows*/
 .top-buffer{
     margin-top: 20px;
 }

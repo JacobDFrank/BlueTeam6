@@ -10,9 +10,9 @@
     <section class="container">
         <!-- tutorial header and picture -->
         <section class="row tutorial_content-row">
-            <h1 class="col-md-7 tutorial_header">Tutorial</h1>
+            <h1 class="col-md-7 col-xs-12 tutorial_header">Tutorial</h1>
             <div class="col-md-2"></div> <!-- spacer -->
-            <img src="images/ben.jpg" alt="Picture of author" class="col-md-3 col-sm-6">
+            <img src="images/ben.jpg" alt="Picture of author" class="col-md-3 col-xs-6">
         </section>
 
         <!-- topic and quiz link -->

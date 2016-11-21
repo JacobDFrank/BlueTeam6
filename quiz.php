@@ -10,14 +10,11 @@
 <div class="container">
 <div class= "row">
   <div class="well">
-      <div class="row">
-        <div class="col-lg-6">
-          <h1>Persons Page</h1>
-        </div>
-        <div class="col-lg-6">
-          <img src="./images/andrew.jpg" class="img-responsive pull-right">
-        </div>
-      </div>
+      <section class="row tutorial_content-row">
+        <h1 class="col-md-7 col-xs-12 tutorial_header">Quiz Topic</h1>
+        <div class="col-md-2"></div> <!-- spacer -->
+         <img src="images/andrew.jpg" alt="Picture of author" class="col-md-3 col-xs-6">
+      </section>
       <div class="well">
         <p>Question 1</p>
         <form action= "quizsubmission.php" method="post" >
@@ -169,7 +166,7 @@
             <label><input type="radio" name="optradio10" value = 4>Option 4</label>
           </div>
         </div>
-          <input type="submit" class="btn btn-lg btn-primary" name="submit" value="Submit"/>
+          <input type="submit" class="btn btn-lg btn-primary center-block" name="submit" value="Submit"/>
         </form>
       </div>
     </div>

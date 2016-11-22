@@ -65,6 +65,7 @@
 				<p>
 					A: CSS stands for Cascading Style Sheets and basically describes how each HTML element or entity is displayed via various things like classes or id’s. An example of this would be on an HTML element or entity called the body tag.
 					<br>
+					<code>
 					body {
 					<br>
    						background: black;
@@ -73,8 +74,10 @@
    					<br>	
 					}
 					<br>
+					</code>
 					This CSS rule is pretty simple, it targets the body element and makes it black with a font color of white.
 					There are a bunch of different CSS properties that you can define on an element, things like padding, margins, the type of display you want it to do, a transition. There are a lot of different properties in CSS and to almost anything if you take advantage of them.
+					
 				</p>
 			</div>
 			<div>
@@ -85,20 +88,19 @@
 					Q: How do I force the keyboard to show in Android?
 				</p>
 				<p>
-					A:setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
+					A:<code>setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);</code>
 				</p>	
 				<p>
 					Q: How do I display a dialog in Android and set a field from it?
 				</p>
 				<p>
-					A: AlertDialog.Builder builder = new AlertDialog.Builder(this);
+					A: <code>AlertDialog.Builder builder = new AlertDialog.Builder(this);
 					<br>
-					builder.setTitle("Title");
+					         builder.setTitle("Title");
 					<br>
-					final EditText input = new EditText(this);	
+					         final EditText input = new EditText(this);	
 					<br>
 					builder.setView(input);
-					<br>
 					<br>
 					builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
 					<br>
@@ -121,10 +123,11 @@
 					AlertDialog dialog = builder.create();
 					<br>
 					dialog.show();
-					</p>
-				</div>	
-			</section>	
-		</section>
+					</code>
+				</p>
+			</div>	
+		</section>	
+	</section>
 	<?php include 'footer.php' ?>	
 	</body>
 </html>

@@ -10,8 +10,9 @@
 <section class="container">
     <!-- logo -->
     <section class="row">
-        <div class="col-md-3"></div>
-        <img src="images/us.jpg" alt="Team logo" class="col-md-12">
+        <div class="col-md-2 col-sm-1"></div>
+        <img src="images/us.jpg" alt="Team logo" class="col-md-8 col-sm-10 col-xs-12">
+        <div class="col-md-2 col-sm-1"></div>
     </section>
 
     <!-- title and subheader -->

@@ -8,11 +8,11 @@
 <meta name="msapplication-TileColor" content="#2196F3">
 
 <!-- favicon -->
-<!--<link rel="shortcut icon" href="images/favicon.png" />-->
+<!--<link rel="shortcut icon" href="/images/favicon.png" />-->
 
 <!-- style sheets -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css" media="screen">
-<link rel="stylesheet" href="css/print.css" media="print">
-<link rel="stylesheet" href="css/header.css">
-<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/style.css" media="screen">
+<link rel="stylesheet" href="/css/print.css" media="print">
+<link rel="stylesheet" href="/css/header.css">
+<link rel="stylesheet" href="/css/footer.css">

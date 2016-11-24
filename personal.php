@@ -9,19 +9,17 @@
 
     <section class="container">
         <section class="row" id="personHead">
-            <div class="col-md-7">
+            <div class="col-md-7 col-xs-12">
                 <h1>Person Page/Topic</h1>
             </div>
             <div class="col-md-2"></div>
-<!--            <div class="col-md-3 col-sm-6">-->
-                <img class="col-md-3 col-sm-6" src="images/ryan.png"/>
-<!--            </div>-->
+            <img class="col-md-3 col-xs-6" src="images/ryan.png"/>
         </section>
-        <section class="row top-buffer" id="topic">
+        <section class="row top-buffer well" id="topic">
             <div class="col-md-8">
                 <p>This is how you topic. Here is what topic is. I am good at topic.</p>
             </div>
-            <div class="col-md-4 pull-right">
+            <div class="col-md-4 col-xs-12 pull-right">
                 <div class="row">
                     <a href="" class="btn btn-primary col-sm-12">Tutorial</a>
                 </div>
@@ -32,16 +30,36 @@
         </section>
         <section class="row well top-buffer" id="testimonials">
             <h2>Testimonials</h2>
-            <div class="col-md-5">
-                <p>Testimonial uno.</p>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="" alt=""/>
+                    </div>
+                    <div class="col-md-9">
+                        <p>Testimonial uno.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-5 pull-right">
-                <p>Testimonial dos.</p>
+            <div class="col-md-6 pull-right">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="" alt=""/>
+                    </div>
+                    <div class="col-md-9">
+                        <p>Testimonial dos.</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="row well" id="strengths">
-            <h2>My Strengths and Abilities</h2>
-            <p>What am I good at?</p>
+            <div class="col-md-8">
+                <h2>My Strengths and Abilities</h2>
+                <p></p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <img src="" alt=""/>
+            </div>
         </section>
         <section class="row well" id="aboutMe">
             <h2>Whoami?</h2>

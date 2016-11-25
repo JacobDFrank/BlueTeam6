@@ -11,6 +11,8 @@
         <section class="row" id="personHead">
             <div class="col-md-7 col-xs-12">
                 <h1>Person Page/Topic</h1>
+                <br />
+                <h2>By First Last</h2>
             </div>
             <div class="col-md-2"></div>
             <img class="col-md-3 col-xs-6" src="images/ryan.png"/>

@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <title>Tutorial</title>
-    <?php include 'head.php' ?>
+    <?php include '../inner-head.php' ?>
 </head>
 <body>
-<?php include 'header.php' ?>
-
+    <?php include '../header.php' ?>
     <section class="container">
         <!-- tutorial header and picture -->
         <section class="row tutorial_content-row">

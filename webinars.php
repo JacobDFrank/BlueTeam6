@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <title>Webinars</title>
-    <?php include 'head.php' ?>
+    <?php include '../inner-head.php' ?>
 </head>
 <body>
-    <?php include 'header.php' ?>
+    <?php include '../header.php' ?>
 
     <div class="container">
       <div class= "row">

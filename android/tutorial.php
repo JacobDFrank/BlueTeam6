@@ -123,8 +123,190 @@
                 <img src="../images/tutorials/android/empty_layout.png" alt="Empty layout" class="col-md-6 col-xs-12">
             </section>
 
+            <!-- full content -->
+            <section class="row tutorial_content-row well">
+                <div class="col-xs-12">
+                    <h2>Step 7</h2>
+                    <p>Next we will add a plus vector asset for the floating action button (FAB). To do this, right click on the “res” folder and choose “New>Vector Asset”. Under “Icon”, click the Android icon and in the next window, scroll up and select the “+” icon. Once that is done, check “Enable auto mirroring for RTL layout” and click “Next” and then “Finish”.</p>
+                </div>
+            </section>
+
+            <!-- full content -->
+            <section class="row tutorial_content-row well">
+                <img src="../images/tutorials/android/base_layout.png" alt="Base layout" class="col-md-6 col-xs-12">
+                <div class="col-md-6 col-xs-12">
+                    <h2>Step 8</h2>
+                    <p>Back in the “activity_main.xml”, you will add the ListView to store the items and the floating action button (FAB) to add items to the ListView. Add a ListView below the Toolbar and a FAB in the bottom right corner, offset by the default horizontal and vertical margins. The onClick action for the FAB should be “addItem”, the method that it will execute when clicked. Your code should look like this: <br /></p>
+                    <code>
+                        &lt;ListView<br/>
+                                android:id=”@+id/list"<br/>
+                                android:layout_width="match_parent"<br/>
+                                android:layout_height="wrap_content"<br/>
+                                android:layout_below="@+id/toolbar_layout"&gt;
+                        &lt;/ListView&gt;
+                        <br /><br />
+
+                        &lt;android.support.design.widget.FloatingActionButton<br/>
+                                android:id="@+id/add"<br/>
+                                android:src="@drawable/ic_add_black_24dp"<br/>
+                                android:tint="@color/white"<br/>
+                                app:fabSize="normal"<br/>
+                                app:elevation="4dp"<br/>
+                                android:onClick="addItem"<br/>
+                                android:layout_width="wrap_content"<br/>
+                                android:layout_height="wrap_content"<br/>
+                                android:layout_alignParentBottom="true"<br/>
+                                android:layout_alignParentRight="true"<br/>
+                                android:layout_alignParentEnd="true"<br/>
+                                android:layout_marginRight="@dimen/activity_horizontal_margin"<br/>
+                                android:layout_marginEnd="@dimen/activity_horizontal_margin"<br/>
+                                android:layout_marginBottom="@dimen/activity_vertical_margin"/&gt;
+                    </code>
+                </div>
+            </section>
+
+            <!-- full content -->
+            <section class="row tutorial_content-row well">
+                <div class="col-xs-12">
+                    <h2>Step 9</h2>
+                    <p>Next step is to create a list row layout. It will be a simple LinearLayout with a single TextView. Your code should look like this:<br /></p>
+                    <code>
+                        &lt;?xml version="1.0" encoding="utf-8"?&gt;<br/>
+                        &lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"<br/>
+                                      android:layout_width="match_parent"<br/>
+                                      android:layout_height="match_parent"<br/>
+                                      android:orientation="vertical"&gt;<br/><br/>
+
+                        &lt;TextView<br/>
+                                    android:id="@+id/listText"<br/>
+                                    android:layout_width="wrap_content"<br/>
+                                    android:layout_height="wrap_content"<br/>
+                                    android:padding="10dp"/&gt;<br/><br/>
+
+                        &lt;/LinearLayout&gt;
+                    </code>
+                </div>
+            </section>
+
+            <!-- full content -->
+            <section class="row tutorial_content-row well">
+                <div class="col-xs-12">
+                    <h2>Step 10</h2>
+                    <p>Now it is time to add functionality to the app. Go to “app>src>main>java>yourappdomain>MainActivity.java”. First create a List of list items, ListView, and ArrayAdapter at the class level. <br/></p>
+                    <code>
+                        private List&lt;String&gt; listItems;<br/>
+                        private ListView list;<br/>
+                        private ArrayAdapter&lt;String&gt; adapter;
+                    </code>
+                </div>
+            </section>
+
+            <!-- full content -->
+            <section class="row tutorial_content-row well">
+                <div class="col-xs-12">
+                    <h2>Step 11</h2>
+                    <p>Next, under onCreate, you will set the action bar, instantiate the List, and set the adapter like this:<br/></p>
+                    <code>
+                        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));<br/><br/>
+
+
+                        listItems = new ArrayList&lt;&gt;();<br/>
+                        list = (ListView) findViewById(R.id.list);<br/><br/>
+
+
+                        // initiate the listadapter<br/>
+                        adapter = new ArrayAdapter&lt;&gt;(this,
+                        R.layout.list_row, R.id.listText, listItems);<br/><br/>
+
+
+                        // assign the list adapter<br/>
+                        list.setAdapter(adapter);
+                    </code>
+                </div>
+            </section>
+
+            <!-- full content -->
+            <section class="row tutorial_content-row well">
+                <div class="col-xs-12">
+                    <h2>Step 12</h2>
+                    <p>Next you will make the addItem method to add items to the List when you click the FAB. The method must take a View (the calling View) as its parameter. Inside the method, simply add an item to the List of items and notify the adapter that its data set has changed. <br/></p>
+                    <code>
+                        public void addItem(View v) {<br/>
+                        listItems.add("Example");<br/>
+                        adapter.notifyDataSetChanged();<br/>
+                        }
+                    </code>
+                </div>
+            </section>
+
+            <!-- full content -->
+            <section class="row tutorial_content-row well">
+                <div class="col-xs-12">
+                    <h2>Step 13</h2>
+                    <p>At this point, you should have a working app that adds items to the list when you press the button. However, that is not very useful. Lets add input for note taking. </p>
+                </div>
+            </section>
+
+            <!-- full content -->
+            <section class="row tutorial_content-row well">
+                <div class="col-xs-12">
+                    <h2>Step 14</h2>
+                    <p>Now, replace the contents of the addItem method with an AlertDialog that asks for input and adds it to the list. The method should now look like this: <br/></p>
+                    <code>
+                        public void addItem(View v) {<br/>
+                        AlertDialog.Builder builder = new AlertDialog.Builder(this);<br/>
+                        builder.setTitle("Please enter the note to add");<br/><br/>
+
+
+                        final EditText input = new EditText(this);<br/>
+                        builder.setView(input);<br/><br/>
+
+
+                        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {<br/>
+                        @Override<br/>
+                        public void onClick(DialogInterface dialog, int whichButton) {<br/>
+                        //add the input to the list<br/>
+                        listItems.add(input.getText().toString());<br/>
+                        adapter.notifyDataSetChanged();<br/>
+                        }<br/>
+                        });<br/>
+                        builder.setNegativeButton("CANCEL", null);<br/><br/>
+
+
+                        AlertDialog dialog = builder.create();<br/>
+                        dialog.show();<br/><br/>
+
+
+                        //show the keyboard when the dialog appears<br/>
+                        try {<br/>
+                        dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);<br/>
+                        } catch (NullPointerException e) {<br/>
+                        Log.e("failed to show keyboard", e.getMessage());<br/>
+                        }<br/>
+                        }
+
+                    </code>
+                </div>
+            </section>
+
+            <!-- content left, picture right -->
+            <section class="row tutorial_content-row well">
+                <div class="col-md-6 col-xs-12">
+                    <h2>Step 15</h2>
+                    <p>Congratulations, you now have a working note taking app. This app can take whatever you type in the dialog and save it to the list. Your app should now look something like this:</p>
+                </div>
+                <img src="../images/tutorials/android/final_app.png" alt="Final Layout" class="col-md-6 col-xs-12">
+            </section>
+
+            <!-- full content -->
+            <section class="row tutorial_content-row well">
+                <div class="col-xs-12">
+                    <h2>Step 16</h2>
+                    <p>If you need to reference the source code, you can find the app at <a href="https://github.com/BenAlderfer/Note-App-Example">https://github.com/BenAlderfer/Note-App-Example.</a></p>
+                </div>
+            </section>
         </section>
     </section>
-    <?php include 'footer.php' ?>
+    <?php include '../footer.php' ?>
 </body>
 </html>

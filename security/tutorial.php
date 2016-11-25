@@ -5,7 +5,7 @@
     <?php include '../inner-head.php' ?>
 </head>
 <body>
-<?php include '../header.php' ?>
+<?php include '../inner-header.php' ?>
 
     <section class="container">
         <!-- tutorial header and picture -->
@@ -58,7 +58,7 @@
 
             <!-- picture left, content right -->
             <section class="row tutorial_content-row well">
-                <img src="images/tutorials/topic/step.jpg" alt="Step picture" class="col-md-6 col-xs-12">
+                <img src="../images/tutorials/security/programming.jpg" alt="Step picture" class="col-md-6 col-xs-12">
                 <div class="col-md-6 col-xs-12">
                     <h2>Step 1: Gather the Propper Supplies</h2>
                     <p>For this step, either navigate to the link above (skip to <a href="#step3">step 3</a>) or setup your own LAMP server (Linux, Apache, MySQL and PHP). If you choose to setup your own LAMP server, configuring it is not too hard as I have a SQL Injection demo on my GitHub that comes with a script you can use to setup the database and all.</p>
@@ -98,10 +98,25 @@
             </section>
             
             <section class="row tutorial_content-row well">
+                <div class="col-md-6 col-xs-12">
+                    <h2>Step 5: Injection</h2>
+                    <p>Now you are ready to start injecting the page. Remember, for this part you want to enter a true statement (1=1 is always true) into one of the fields. You also want look above at the PHP code and see what else you need to include in your input to properly inject the page. An example of what you could input is to the right.</p>
+                </div>
+                <img src="../images/tutorials/security/sql_injection.PNG" alt="Sample Input" class="col-md-6 col-xs-12 left-buffer" id="injection"/>
+            </section>
+            
+            <section class="row tutorial_content-row well">
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
-                        <h2>Step 4: Injection</h2>
-                        <p></p>
+                        <h2>Step 6: The Result</h2>
+                        <p>Once you have successfully injected the page, you should have access to more of the page. My site yields the information of all the users in the database. Some pages will let you in as the Administrator and others will return more from the database. Pending on your input, there are ways to force the page to do one of the two but, the page has to allow it. For instance, all you can get from my test page is information from the SQL database. There just isn't more my page is programmed to do.</p>
+                    </div>
+                    <img src="../images/tutorials/security/page_result.PNG" alt="Sample Input" class="col-md-6 col-xs-12"/>
+                </div>
+                <div class="row top-buffer">
+                    <img src="../images/tutorials/security/sql_result.PNG" alt="SQL Result" class="col-md-6 col-xs-12"/>
+                    <div class="col-md-6 col-xs-12">
+                        <p>My page also displays the resultant SQL code. After injection the statement the databse receives is much different than what the PHP code up above looks to be sending. Once you understand how the SQL code is manipulated, you can begin to string together multiple commands which will then allow you to see more information in the database.</p>
                     </div>
                 </div>
             </section>

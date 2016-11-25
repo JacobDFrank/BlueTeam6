@@ -129,3 +129,8 @@ code {
     padding-bottom: 70px
 }
 
+/*Extra code for security pages*/
+#injection {
+    max-height: 171px;
+    max-width: 164px;
+}

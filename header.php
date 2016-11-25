@@ -20,10 +20,10 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/BlueTeam6/java/javaPersonal.php">Java</a></li>
+                        <li><a href="java/javaPersonal.php">Java</a></li>
                         <li><a href="#">HTML/CSS</a></li>
-                        <li><a href="#">Android</a></li>
-                        <li><a href="/BlueTeam6/security/personal.php">Computer Security</a></li>
+                        <li><a href="android/personal.php">Android</a></li>
+                        <li><a href="security/personal.php">Computer Security</a></li>
                         <li><a href="#">Database Programming</a></li>
                     </ul>
                 </li>

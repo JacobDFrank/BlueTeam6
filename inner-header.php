@@ -22,8 +22,8 @@
                     <ul class="dropdown-menu">
                         <li><a href="../#">Java</a></li>
                         <li><a href="../#">HTML/CSS</a></li>
-                        <li><a href="../#">Android</a></li>
-                        <li><a href="/BlueTeam6/security/personal.php">Computer Security</a></li>
+                        <li><a href="../android/personal.php">Android</a></li>
+                        <li><a href="../security/personal.php">Computer Security</a></li>
                         <li><a href="../#">Database Programming</a></li>
                     </ul>
                 </li>

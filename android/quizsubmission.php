@@ -27,7 +27,7 @@
 	switch($q1sub)
 		{
 				case $answer1:
-					echo "Correct. Good Job! <br>";
+                    echo "Correct. Good Job! <br/>";
 					$totalCorrect += 1;
 					break;
 				default:
@@ -39,7 +39,7 @@
 	switch($q2sub)
 		{
 				case $answer2:
-					echo "Correct. Good Job! <br>";
+					echo "Correct. Good Job! <br/>";
 					$totalCorrect += 1;
 					break;
 				default:
@@ -51,7 +51,7 @@
 	switch($q3sub)
 		{
 				case $answer3:
-					echo "Correct. Good Job! <br>";
+                    echo "Correct. Good Job! <br/>";
 					$totalCorrect += 1;
 					break;
 				default:
@@ -63,7 +63,7 @@
 	switch($q4sub)
 		{
 				case $answer4:
-					echo "Correct. Good Job! <br>";
+                    echo "Correct. Good Job! <br/>";
 					$totalCorrect += 1;
 					break;
 				default:
@@ -75,7 +75,7 @@
 	switch($q5sub)
 		{
 				case $answer5:
-					echo "Correct. Good Job! <br>";
+                    echo "Correct. Good Job! <br/>";
 					$totalCorrect += 1;
 					break;
 				default:
@@ -87,7 +87,7 @@
 	switch($q6sub)
 		{
 				case $answer6:
-					echo "Correct. Good Job! <br>";
+                    echo "Correct. Good Job! <br/>";
 					$totalCorrect += 1;
 					break;
 				default:
@@ -99,7 +99,7 @@
 	switch($q7sub)
 		{
 				case $answer7:
-					echo "Correct. Good Job! <br>";
+                    echo "Correct. Good Job! <br/>";
 					$totalCorrect += 1;
 					break;
 				default:
@@ -111,7 +111,7 @@
 	switch($q8sub)
 		{
 				case $answer8:
-					echo "Correct. Good Job! <br>";
+                    echo "Correct. Good Job! <br/>";
 					$totalCorrect += 1;
 					break;
 				default:
@@ -123,7 +123,7 @@
 	switch($q2sub)
 		{
 				case $answer9:
-					echo "Correct. Good Job! <br>";
+                    echo "Correct. Good Job! <br/>";
 					$totalCorrect += 1;
 					break;
 				default:
@@ -135,7 +135,7 @@
 	switch($q10sub)
 		{
 				case $answer10:
-					echo "Correct. Good Job! <br>";
+                    echo "Correct. Good Job! <br/>";
 					$totalCorrect += 1;
 					break;
 				default:

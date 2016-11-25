@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <title>Topic Goes Here</title>
-    <?php include 'head.php' ?>
+    <?php include '../inner-head.php' ?>
 </head>
 <body>
-    <?php include 'header.php' ?>
+    <?php include '../inner-header.php' ?>
 
     <section class="container">
         <section class="row" id="personHead">
@@ -32,33 +32,25 @@
             <h2>Testimonials</h2>
             <div class="col-md-6">
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="" alt=""/>
-                    </div>
-                    <div class="col-md-9">
+                    <img class="col-md-4" src="" alt=""/>
+                    <div class="col-md-8">
                         <p>Testimonial uno.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 pull-right">
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="" alt=""/>
-                    </div>
-                    <div class="col-md-9">
+                    <img class="col-md-4" src="" alt=""/>
+                    <div class="col-md-8">
                         <p>Testimonial dos.</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="row well" id="strengths">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <h2>My Strengths and Abilities</h2>
                 <p></p>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
-                <img src="" alt=""/>
             </div>
         </section>
         <section class="row well" id="aboutMe">
@@ -67,6 +59,6 @@
         </section>
     </section>
 
-    <?php include 'footer.php' ?>
+    <?php include '../inner-footer.php' ?>
 </body>
 </html>

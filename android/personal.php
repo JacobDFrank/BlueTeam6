@@ -33,20 +33,20 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="" alt=""/>
+                        <img src="../images/personal/android/testimonial1.jpg" alt="Kevin Harris"/>
                     </div>
                     <div class="col-md-9">
-                        <p>Testimonial uno.</p>
+                        <p>Their Android tutorials are the best! They got me started in mobile development and now I am a Senior Android Developer. - Kevin Harris</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 pull-right">
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="" alt=""/>
+                        <img src="../images/personal/android/testimonial2.jpg" alt="Jake Brown"/>
                     </div>
                     <div class="col-md-9">
-                        <p>Testimonial dos.</p>
+                        <p>These tutorials are great. They work for both professionals and students. They are easy to follow and I always learn something. - Jake Brown</p>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
         <section class="row well" id="strengths">
             <div class="col-md-8">
                 <h2>My Strengths and Abilities</h2>
-                <p></p>
+                <p>I’ve been working with Android for four years and I have multiple apps published on the Google Play Store. I have experience with a variety of apps ranging from tip calculators to indoor locators. I can create highly customizable apps that have different themes and colors, work with different languages, and adapt to any screen. I can also work with AppCompat to target older versions of Android while maintaining many of the new features. I also have experience with permissions, using device hardware, and many of the common libraries.</p>
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-3">
@@ -62,11 +62,11 @@
             </div>
         </section>
         <section class="row well" id="aboutMe">
-            <h2>Whoami?</h2>
-            <p>I am a person.</p>
+            <h2>Who Am I?</h2>
+            <p>I am a second year student at RIT majoring in Software Engineering. In my free time I enjoy learning new concepts and playing with new tech. I make Android apps, experiment with virtual and augmented reality, and create web apps. I have been developing for Android for about four years and web for a year.</p>
         </section>
     </section>
 
-    <?php include 'footer.php' ?>
+    <?php include '../footer.php' ?>
 </body>
 </html>

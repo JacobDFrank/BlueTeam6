@@ -5,12 +5,12 @@
     <?php include '../inner-head.php' ?>
 </head>
 <body>
-    <?php include '../header.php' ?>
+    <?php include '../inner-header.php' ?>
 
     <section class="container">
         <section class="row" id="personHead">
             <div class="col-md-7 col-xs-12">
-                <h1>Computer Security</h1>
+                <h1>Java</h1>
                 <br />
                 <h2>By Andrew Diana</h2>
             </div>

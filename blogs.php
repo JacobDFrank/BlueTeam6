@@ -24,7 +24,7 @@
                 </div>
             </section>
 
-<!--            SECURITY BLOGS-->
+            <!--SECURITY BLOGS-->
 			<section class="well top-buffer" id="security">
                 <h2>Security</h2>
                 <!--BLOG POST 1-->
@@ -186,7 +186,7 @@
                 </section>
             </section>
 
-<!--            ANDROID BLOGS-->
+            <!--ANDROID BLOGS-->
             <section class="well top-buffer" id="android">
                 <h2>Android</h2>
                 <!--BLOG POST 1-->
@@ -210,7 +210,7 @@
                         <!--Blog Post itself-->
                         <div class="row">
                             <div class="col-md-1"></div>
-                            <img src="" alt="" class="col-md-2" />
+                            <img src="images/blogs/android/blog1.png" alt="Split screen" class="col-md-2" />
                             <div class="col-md-8">
                                 <p>
                                     Hey all, <br />
@@ -289,7 +289,7 @@
                                     For more information, see: <a href="https://developer.android.com/reference/android/service/quicksettings/Tile.html">https://developer.android.com/reference/android/service/quicksettings/Tile.html</a>
                                 </p>
                             </div>
-                            <img src="" alt="" class="col-md-2"
+                            <img src="images/blogs/android/blog2.png" alt="Quick Settings" class="col-md-2"
                             <div class="col-md-1"></div>
                         </div>
                     </div>

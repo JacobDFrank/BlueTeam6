@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Computer Security</title>
+    <title>Ryan on Security</title>
     <?php include '../inner-head.php' ?>
 </head>
 <body>
-    <?php include '../header.php' ?>
+    <?php include '../inner-header.php' ?>
 
     <section class="container">
         <section class="row" id="personHead">
@@ -38,10 +38,10 @@
             </div>
             <div class="col-md-4 col-xs-12 pull-right top-buffer">
                 <div class="row">
-                    <a href="" class="btn btn-primary col-sm-12">Tutorial</a>
+                    <a href="tutorial.php" class="btn btn-primary col-sm-12">Tutorial</a>
                 </div>
                 <div class="row top-buffer">
-                    <a href="" class="btn btn-primary col-sm-12">Quiz</a>
+                    <a href="quiz.php" class="btn btn-primary col-sm-12">Quiz</a>
                 </div>
             </div>
         </section>
@@ -49,33 +49,25 @@
             <h2>Testimonials</h2>
             <div class="col-md-6">
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="" alt=""/>
-                    </div>
-                    <div class="col-md-9">
+                    <img class="col-md-4" src="../images/testimonials/security/stock_male.jpg" alt="Wade"/>
+                    <div class="col-md-8">
                         <p>“I really enjoyed Ryan’s section on security! It really opened my eyes into the dangers that exist in the cyber realm. I didn’t know that some of the simplest of errors could wind up costing so much in damage.” - Wade M.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 pull-right">
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="" alt=""/>
-                    </div>
-                    <div class="col-md-9">
+                    <img class="col-md-4" src="../images/testimonials/security/stock_female.jpg" alt="Kelsey"/>
+                    <div class="col-md-8">
                         <p>“Ryan’s crash course on security was extremely helpful! As a someone who is totally new to the field of security I was astounded at how easy it was to be vulnerable. I really enjoyed how he presented the information to us. I thought it was presented in a way that made it simple to understand and easy to see how it all correlated. Even the quiz on his site was phenomenal! I feel so much more secure now knowing how to protect some applications as well as how to find vulnerable, unsafe applications.” - Kelsey C.</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="row well" id="strengths">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <h2>My Strengths and Abilities</h2>
                 <p>Cybersecurity itself is an expansive field; there is a lot to it. There is physical security, network security, computer security, Internet of Things device security, message security and more. My overview on security will go through a few of the fields in which I am most proficient in (Network and application security) as well as a field which I have a lot of interest in (pentesting). I have worked almost exclusively in the network security field but have spent some time working on application security. Penetration testing is a bit new to me but I have friends who have done it and I have dabbled a bit in it. If you are looking to get started in any of these fields feel free to contact me and I can help get you started!</p>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
-                <img src="" alt=""/>
             </div>
         </section>
         <section class="row well" id="aboutMe">

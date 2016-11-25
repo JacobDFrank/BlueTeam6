@@ -2,17 +2,17 @@
 <html lang="en">
 	<head>
 		<title>Blogs</title>
-		<?php include 'head.php' ?>
+		<?php include '../inner-head.php' ?>
 	</head>
 	<body>
-		<?php include 'header.php' ?>
+		<?php include '../header.php' ?>
 
 		<section class="container">
 			<section class="row">
                 <div class="col-md-4"></div>
 				<!--SPLASH, image?, banner?-->
 				<div class="col-md-4">
-                    <img src="images/blogs/blog.png" alt="Blog">
+                    <img src="../images/blogs/blog.png" alt="Blog">
                 </div>
                 <div class="col-md-4"></div>
 			</section>
@@ -30,11 +30,11 @@
                     <div class="col-md-10 well">
                         <!--Blog Heading-->
                         <div class="row">
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
                                 <h2>Blog Title</h2>
                             </div>
-                            <div class="col-md-4"></div>
+                            <div class="col-md-2"></div>
                         </div>
                         <!--Blog Post itself-->
                         <div class="row">
@@ -56,11 +56,11 @@
                     <div class="col-md-10 well">
                         <!--Blog Heading-->
                         <div class="row">
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
                                 <h2>Blog Title</h2>
                             </div>
-                            <div class="col-md-4"></div>
+                            <div class="col-md-2"></div>
                         </div>
                         <!--Blog Post itself-->
                         <div class="row">
@@ -78,6 +78,6 @@
             </section>
 		</section>
 
-		<?php include 'footer.php' ?>
+		<?php include '../footer.php' ?>
 	</body>
 </html>

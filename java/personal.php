@@ -5,7 +5,17 @@
     <?php include '../inner-head.php' ?>
 </head>
 <body>
-    <?php include '../header.php' ?>
+    <?php include '../inner-header.php' ?>
+
+    <style>
+        #courses {
+            background: #FF9800 !important;
+        }
+        #java {
+            background: #FF9800 !important;
+            color: white !important;
+        }
+    </style>
 
     <section class="container">
         <section class="row" id="personHead">

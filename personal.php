@@ -7,6 +7,16 @@
 <body>
     <?php include '../inner-header.php' ?>
 
+    <style>
+        #courses {
+            background: #FF9800 !important;
+        }
+        #SUBJECT {
+            background: #FF9800 !important;
+            color: white !important;
+        }
+    </style>
+
     <section class="container">
         <section class="row" id="personHead">
             <div class="col-md-7 col-xs-12">

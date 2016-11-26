@@ -5,7 +5,7 @@
     <?php include '../inner-head.php' ?>
 </head>
 <body>
-    <?php include '../header.php' ?>
+    <?php include '../inner-header.php' ?>
 
 <section class="container">
 <section class= "row">

@@ -7,6 +7,12 @@
 <body>
     <?php include 'header.php' ?>
 
+    <style>
+        #PAGE {
+            background: #FF9800;
+        }
+    </style>
+
     <section class="container">
         <section class="row">
 

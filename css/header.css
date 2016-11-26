@@ -15,15 +15,23 @@ nav.navbar.navbar-fixed-top.p-a-9.nav {
 .navbar a:active, .navbar a:focus{
         color: #2B98F0; /* header-text-color  */
 }
+
+/* fix logo color */
 .navbar a:hover {
     color: white;
+
 }
+
+.navbar-nav li a:hover {
+    background-color: #BBDEFB;
+}
+
 .dropdown-menu a{
     color: #2B98F0 !important;
 }
-.navbar
+
 /* brand, links, and dropdowns */
-.navbar-inverse .navbar-brand,
+.navbar .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-nav li,
 .navbar-inverse .navbar-nav > li > a {
     color: white; /* header-text-color  */

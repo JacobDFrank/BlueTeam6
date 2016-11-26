@@ -9,6 +9,13 @@
 
 	<body>
         <?php include("header.php"); ?>
+
+        <style>
+            #contact {
+                background: #FF9800;
+            }
+        </style>
+
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid about-splash-words contact-splash-words">

@@ -8,6 +8,13 @@
 
 	<body>
         <?php include("header.php"); ?>
+
+        <style>
+            #workshops {
+                background: #FF9800;
+            }
+        </style>
+
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid">

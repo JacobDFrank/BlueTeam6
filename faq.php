@@ -5,7 +5,14 @@
     <?php include 'head.php' ?>
 </head>
 	<body>
-	<?php include 'header.php' ?>
+        <?php include 'header.php' ?>
+
+        <style>
+            #faq {
+                background: #FF9800;
+            }
+        </style>
+
 		<section class="container">
 			<h1>FAQ</h1>
 			<section class = "row well">

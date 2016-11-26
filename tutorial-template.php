@@ -6,6 +6,13 @@
 </head>
 <body>
     <?php include '../header.php' ?>
+
+    <style>
+        #tutorial-NAME {
+            background: #FF9800;
+        }
+    </style>
+
     <section class="container">
         <!-- tutorial header and picture -->
         <section class="row tutorial_content-row">

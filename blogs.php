@@ -7,6 +7,12 @@
 	<body>
 		<?php include 'header.php' ?>
 
+        <style>
+            #blogs {
+                background: #FF9800;
+            }
+        </style>
+
 		<section class="container">
 			<section class="row">
                 <div class="col-md-4"></div>

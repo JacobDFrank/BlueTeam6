@@ -20,18 +20,18 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="java/javaPersonal.php">Java</a></li>
-                        <li><a href="#">HTML/CSS</a></li>
-                        <li><a href="android/personal.php">Android</a></li>
-                        <li><a href="security/personal.php">Computer Security</a></li>
-                        <li><a href="#">Database Programming</a></li>
+                        <li><a id="tutorial-java" href="java/javaPersonal.php">Java</a></li>
+                        <li><a id="tutorial-html" href="#">HTML/CSS</a></li>
+                        <li><a id="tutorial-android" href="android/personal.php">Android</a></li>
+                        <li><a id="tutorial-security" href="security/personal.php">Computer Security</a></li>
+                        <li><a id="tutorial-database" href="#">Database Programming</a></li>
                     </ul>
                 </li>
-                <li><a href="blogs.php">Blog</a></li>
-                <li><a href="workshops.php">Workshops</a></li>
-                <li class="text-nowrap"><a href="webinars.php">Webinars</a></li>
-                <li><a href="faq.php">FAQ</a></li>
-                <li><a class="nav-register menu-pad" href="contact.php">Contact</a></li>
+                <li><a id="blogs" href="blogs.php">Blog</a></li>
+                <li><a id="workshops" href="workshops.php">Workshops</a></li>
+                <li class="text-nowrap"><a id="webinars" href="webinars.php">Webinars</a></li>
+                <li><a id="faq" href="faq.php">FAQ</a></li>
+                <li><a id="contact" class="nav-register menu-pad" href="contact.php">Contact</a></li>
             </ul>
         </div>
     </div>

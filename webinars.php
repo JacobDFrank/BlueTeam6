@@ -7,6 +7,12 @@
 <body>
     <?php include 'header.php' ?>
 
+    <style>
+        #webinars {
+            background: #FF9800;
+        }
+    </style>
+
     <div class="container">
         <h1>WEBINARS</h1>
 

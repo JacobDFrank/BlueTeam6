@@ -67,7 +67,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer1 ."<br/>";
+					echo "Oops! The correct answer was question : ". $answer4 ."<br/>";
 					break;
 		}
 	$answer5 = 4;

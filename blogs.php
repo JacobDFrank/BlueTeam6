@@ -24,9 +24,27 @@
                 </div>
             </section>
 
+            <!--Little Navigation bar-->
+            <section class="row well">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <ul class="blogNav">
+                        <li><h4><a href="#security">Security</a></h4></li>
+                        <li><h4><a href="#database">Database</a></h4></li>
+                        <li><h4><a href="#android">Android</a></h4></li>
+                        <li><h4><a href="#html">HTML/CSS</a></h4></li>
+                        <li><h4><a href="#java">Java</a></h4></li>
+                    </ul>
+                </div>
+                <div class="col-md-3"></div>
+            </section>
+
             <!--SECURITY BLOGS-->
 			<section class="well top-buffer" id="security">
-                <h2>Security</h2>
+                <div class="row">
+                    <h2 class="col-md-10">Security</h2>
+                    <p class="col-md-2"><a href="#">Back to Top</a></p>
+                </div>
                 <!--BLOG POST 1-->
                 <section class="row top-buffer">
                     <div class="col-md-1"></div>
@@ -99,8 +117,11 @@
             </section>
 
 <!--            DATABASE BLOGS-->
-            <section class="well top-buffer" id="Database">
-                <h2>Database</h2>
+            <section class="well top-buffer" id="database">
+                <div class="row">
+                    <h2 class="col-md-10">Database</h2>
+                    <p class="col-md-2"><a href="#">Back to Top</a></p>
+                </div>
                 <!--BLOG POST 1-->
                 <section class="row top-buffer">
                     <div class="col-md-1"></div>
@@ -188,7 +209,10 @@
 
             <!--ANDROID BLOGS-->
             <section class="well top-buffer" id="android">
-                <h2>Android</h2>
+                <div class="row">
+                    <h2 class="col-md-10">Android</h2>
+                    <p class="col-md-2"><a href="#">Back to Top</a></p>
+                </div>
                 <!--BLOG POST 1-->
                 <section class="row top-buffer">
                     <div class="col-md-1"></div>
@@ -297,9 +321,12 @@
                 </section>
             </section>
 
-<!--            BLOG TEMPLATE-->
-            <section class="well top-buffer" id="subject">
-                <h2>Subject</h2>
+            <!--HTML/CSS BLOGS-->
+            <section class="well top-buffer" id="html">
+                <div class="row">
+                    <h2 class="col-md-10">HTML/CSS</h2>
+                    <p class="col-md-2"><a href="#">Back to Top</a></p>
+                </div>
                 <!--BLOG POST 1-->
                 <section class="row top-buffer">
                     <div class="col-md-1"></div>
@@ -308,14 +335,14 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Blog Title</h3>
+                                <h3>Styling a Blog Post</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
                             <div class="col-md-10"></div>
                             <div class="col-md-2">
-                                <h5>Blog Date</h5>
+                                <h5>December 12, 2016</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->
@@ -323,7 +350,20 @@
                             <div class="col-md-1"></div>
                             <div class="col-md-10">
                                 <p>
-                                    Blog numero uno.
+                                    Hey all, In this blog post i’m gonna show you the best ways to style a blog post!<br />
+                                    Use headlines in your posts, the headline will be the first thing you see, to style this you should use an h2 or h3 tag to style this.<br />
+                                    Use images! Another great way to get the user’s attention would be to use <code>&#60;img></code> tags or perhaps use a <code>&#60;div></code> and give that div a background image so you can more easier place the image.<br />
+                                    Get noticed! Use meta tags to get your link higher on the search engine list. This is known as Search Engine Optimization or SEO.<br />
+                                    There are a couple types of meta tags or general tags that get you noticed, one being the title tag or <code>&#60;title></code> which is the text you’ll see at the top of your browser, search engines will use this as the title of your page.<br />
+                                    Another way is to use Meta Keywords Attribute, to use the keywords you can add this tag you to your head and add whatever keywords you want.<br />
+                                    <code>&#60;meta name=”keywords” content=”meta, keywords, tag” /></code><br />
+                                    There are other meta tags you can use like description or robots, or copyright that can help with SEO. Meta Description Attribute simply explains what’s on the page but in the head of the html page and in the meta tag. Using a tag like <br />
+                                    <code>&#60;meta name=”description” content=”This is a meta tag description” /></code><br /><br />
+                                    <strong>Intro text</strong> <br />
+                                    Using text that is slightly larger than the main text that you want the user to read or perhaps slightly smaller than the the main header. Using something like this will ease the user into the article or post.<br />
+                                    <strong>Lists</strong><br />
+                                    Lists are easier for the user to read, they spread out the content easier and let the user see the content in an unordered or ordered way.<br />
+                                    To use a list in html use the tags, below is an unordered list that defaults to bullets, this is done with the &#60;ul> tag. For an ordered list with a default of it being numbered from 1 and one you simply replace the &#60;ul> with &#60;ol>
                                 </p>
                             </div>
                             <div class="col-md-1"></div>
@@ -356,6 +396,96 @@
                             <div class="col-md-10">
                                 <p>
                                     Blog numero dos.
+                                </p>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </section>
+            </section>
+
+            <!--JAVA-->
+            <section class="well top-buffer" id="java">
+                <div class="row">
+                    <h2 class="col-md-10">Java</h2>
+                    <p class="col-md-2"><a href="#">Back to Top</a></p>
+                </div>
+                <!--BLOG POST 1-->
+                <section class="row top-buffer">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 well">
+                        <!--Blog Heading-->
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <h3>Lambda Expressions</h3>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-10"></div>
+                            <div class="col-md-2">
+                                <h5>Blog Date</h5>
+                            </div>
+                        </div>
+                        <!--Blog Post itself-->
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-10">
+                                <p>
+                                    Are you looking to save some time when programming? In Java’s latest update Java 8, Oracle has implemented Lambda Expressions. You may be asking- “What in the world are Lambda Expressions and why are they so important?” Look at the following code:
+                                    <code>//Old way:<br />
+                                        button.addActionListener(new ActionListener() {<br />
+                                            @Override<br />
+                                            public void actionPerformed(ActionEvent e) {<br />
+                                                System.out.println("The button was clicked using old fashion code!");<br />
+                                            }<br />
+                                        });<br />
+
+                                        //New way:<br />
+                                        button.addActionListener( (e) -> {<br />
+                                                System.out.println("The button was clicked. From lambda expressions !");<br />
+                                        });<br />
+                                    </code><br />
+                                    Source: <a href="http://viralpatel.net/blogs/lambda-expressions-java-tutorial/">http://viralpatel.net/blogs/lambda-expressions-java-tutorial/</a><br />
+                                    If you look at the <em>old way</em> that you would have created the action of a button click, there is nothing wrong with it- and it works. But what if you could do the same task in fewer lines? Lambda expressions allow for this button to both be <em>created</em> and <em>implemented</em> in the same expression.<br />
+                                    These expressions are useful due to the fact that they reduce the amount of code needed- which reduces the amount of memory needed.
+                                </p>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </section>
+
+                <!--BLOG POST 2-->
+                <section class="row top-buffer">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 well">
+                        <!--Blog Heading-->
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <h3>Java 9</h3>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-10"></div>
+                            <div class="col-md-2">
+                                <h5>Blog Date</h5>
+                            </div>
+                        </div>
+                        <!--Blog Post itself-->
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-10">
+                                <p>
+                                    In the next Java version- Java 9 expect faster speeds compiling (Yay!). How is Oracle making this possible?
+                                    <q>JIT compilers are fast, but Java programs can become so large that it takes a long time for the JIT to warm up completely,</q> Kozlov's proposal states. Georges Saab, vice president of software development in the Java platform group at Oracle addresses the topic:<br />
+                                    <q>Infrequently used Java methods might never be compiled at all, potentially incurring a performance penalty due to repeated interpreted invocations.</q><br />
+                                    What this means is that as Java grew from version 1 to 8, there have been an increasing amount of methods. These methods may be required to run essential tasks, but are not necessarily needed <em>at all times</em>. To address this, Oracle hopes to pre-compile native Java code on each machine in the Java Virtual Machine. The goal is to save time on compiling, which means better performance. Java 9 is expected to roll out in July of 2017, are you ready for it?
                                 </p>
                             </div>
                             <div class="col-md-1"></div>

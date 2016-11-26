@@ -5,7 +5,17 @@
     <?php include '../inner-head.php' ?>
 </head>
 <body>
-<?php include '../inner-header.php' ?>
+    <?php include '../inner-header.php' ?>
+
+    <style>
+        #courses {
+            background: #FF9800 !important;
+        }
+        #tutorial-security {
+            background: #FF9800 !important;
+            color: white !important;
+        }
+    </style>
 
     <section class="container">
         <!-- tutorial header and picture -->

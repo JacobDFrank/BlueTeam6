@@ -18,7 +18,7 @@
             </span>
             <ul class="nav navbar-nav navbar-right p-r-9 mobile-center menu-pad">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
+                    <a id="courses" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a id="tutorial-java" href="../java/javaPersonal.php">Java</a></li>
                         <li><a id="tutorial-html" href="../#">HTML/CSS</a></li>

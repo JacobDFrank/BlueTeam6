@@ -5,11 +5,15 @@
     <?php include '../inner-head.php' ?>
 </head>
 <body>
-    <?php include '../header.php' ?>
+    <?php include '../inner-header.php' ?>
 
     <style>
+        #courses {
+            background: #FF9800 !important;
+        }
         #tutorial-NAME {
-            background: #FF9800;
+            background: #FF9800 !important;
+            color: white !important;
         }
     </style>
 

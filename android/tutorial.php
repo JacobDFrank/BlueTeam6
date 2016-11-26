@@ -7,16 +7,6 @@
 <body>
     <?php include '../inner-header.php' ?>
 
-    <style>
-        #courses {
-            background: #FF9800 !important;
-        }
-        #tutorial-android {
-            background: #FF9800 !important;
-            color: white !important;
-        }
-    </style>
-
     <section class="container">
         <!-- tutorial header and picture -->
         <section class="row tutorial_content-row">

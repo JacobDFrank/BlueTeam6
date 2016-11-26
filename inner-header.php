@@ -20,11 +20,11 @@
                 <li class="dropdown">
                     <a id="courses" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a id="tutorial-java" href="../java/javaPersonal.php">Java</a></li>
-                        <li><a id="tutorial-html" href="../#">HTML/CSS</a></li>
-                        <li><a id="tutorial-android" href="../android/personal.php">Android</a></li>
-                        <li><a id="tutorial-security" href="../security/personal.php">Computer Security</a></li>
-                        <li><a id="tutorial-database" href="../#">Database Programming</a></li>
+                        <li><a id="java" href="../java/javaPersonal.php">Java</a></li>
+                        <li><a id="web" href="../#">HTML/CSS</a></li>
+                        <li><a id="android" href="../android/personal.php">Android</a></li>
+                        <li><a id="security" href="../security/personal.php">Computer Security</a></li>
+                        <li><a id="database" href="../#">Database Programming</a></li>
                     </ul>
                 </li>
                 <li><a id="blogs" href="../blogs.php">Blog</a></li>

@@ -31,7 +31,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer1 ."<br>";
+					echo "Oops! The correct answer was question : ". $answer1 ."<br/>";
 					break;
 		}
 	$answer2 = 3;
@@ -43,7 +43,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer2 ."<br>";
+					echo "Oops! The correct answer was question : ". $answer2 ."<br/>";
 					break;
 		}
 	$answer3 = 1;
@@ -55,7 +55,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer3 ."<br>";
+					echo "Oops! The correct answer was question : ". $answer3 ."<br/>";
 					break;
 		}
 	$answer4 = 4;
@@ -67,7 +67,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer1 ."<br>";
+					echo "Oops! The correct answer was question : ". $answer1 ."<br/>";
 					break;
 		}
 	$answer5 = 4;
@@ -79,7 +79,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer5 ."<br>";
+					echo "Oops! The correct answer was question : ". $answer5 ."<br/>";
 					break;
 		}
 	$answer6 = 1;
@@ -91,7 +91,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer6 ."<br>";
+					echo "Oops! The correct answer was question : ". $answer6 ."<br/>";
 					break;
 		}
 	$answer7 = 3;
@@ -103,7 +103,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer7 ."<br>";
+					echo "Oops! The correct answer was question : ". $answer7 ."<br/>";
 					break;
 		}
 	$answer8 = 4;
@@ -115,7 +115,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer8 ."<br>";
+					echo "Oops! The correct answer was question : ". $answer8 ."<br/>";
 					break;
 		}
 	$answer9 = 2;
@@ -127,7 +127,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer9 ."<br>";
+					echo "Oops! The correct answer was question : ". $answer9 ."<br/>";
 					break;
 		}
 	$answer10 = 3;
@@ -139,7 +139,7 @@
 					$totalCorrect += 1;
 					break;
 				default:
-					echo "Oops! The correct answer was question : ". $answer10 ."<br>";
+					echo "Oops! The correct answer was question : ". $answer10 ."<br/>";
 					break;
 		}
 	echo "You got ". $totalCorrect . "/10 correct.</div></div>";

@@ -23,10 +23,10 @@
             </div>
             <div class="col-md-4 col-xs-12 pull-right">
                 <div class="row">
-                    <a href="" class="btn btn-primary col-sm-12">Tutorial</a>
+                    <a href="tutorial.php" class="btn btn-primary col-sm-12">Tutorial</a>
                 </div>
                 <div class="row top-buffer">
-                    <a href="" class="btn btn-primary col-sm-12">Quiz</a>
+                    <a href="quiz.php" class="btn btn-primary col-sm-12">Quiz</a>
                 </div>
             </div>
         </section>

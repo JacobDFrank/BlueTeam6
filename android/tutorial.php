@@ -5,7 +5,13 @@
     <?php include '../inner-head.php' ?>
 </head>
 <body>
-<?php include '../inner-header.php' ?>
+    <?php include '../inner-header.php' ?>
+
+    <style>
+        #tutorial-android {
+            background: #FF9800;
+        }
+    </style>
 
     <section class="container">
         <!-- tutorial header and picture -->

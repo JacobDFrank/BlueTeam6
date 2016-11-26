@@ -134,3 +134,22 @@ code {
     max-height: 171px;
     max-width: 164px;
 }
+
+/*Blog page nav*/
+.blogNav {
+    list-style-type: none;
+/*
+    margin: 0;
+    padding: 0;
+*/
+}
+
+.blogNav li {
+    display: inline;
+    padding: 10px;
+}
+
+.blogNav li h4 {
+    display: inline;
+    padding-bottom: 0px;
+}

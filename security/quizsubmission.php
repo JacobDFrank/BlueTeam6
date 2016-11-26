@@ -27,13 +27,13 @@
 			$q9sub = $_POST['optradio9'];
 			$q10sub = $_POST['optradio10'];
 
-			//Change correct $answer#= X to the correct answer and move case statements accordingly 
-			$answer1 = 4;
+			//Change correct $answer#= X to the correct answer and move case statements accordingly
+			$answer1 = 2;
 			echo "<div class = \"container\"><div class= \"well\">";
 			echo "Question 1: ";
 			switch($q1sub)
 				{
-						case 4:
+						case 2:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -42,11 +42,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer2 = 1;
+			$answer2 = 2;
 			echo "Question 2: ";
 			switch($q2sub)
 				{
-						case 1:
+						case 2:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -55,11 +55,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer3 = 2;
+			$answer3 = 4;
 			echo "Question 3: ";
 			switch($q3sub)
 				{
-						case 2:
+						case 4:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -68,11 +68,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer4 = 1;
+			$answer4 = 3;
 			echo "Question 4: ";
 			switch($q4sub)
 				{
-						case 1:
+						case 3:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -81,11 +81,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer5 = 2;
+			$answer5 = 4;
 			echo "Question 5: ";
 			switch($q5sub)
 				{
-						case 2:
+						case 4:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -94,11 +94,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer6 = 1;
+			$answer6 = 4;
 			echo "Question 6: ";
 			switch($q6sub)
 				{
-						case 1:
+						case 4:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -107,11 +107,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer7 = 3;
+			$answer7 = 2;
 			echo "Question 7: ";
 			switch($q7sub)
 				{
-						case 3:
+						case 2:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -133,11 +133,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer9 = 2;
+			$answer9 = 4;
 			echo "Question 9: ";
 			switch($q2sub)
 				{
-						case 2:
+						case 4:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -146,11 +146,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer10 = 1;
+			$answer10 = 3;
 			echo "Question 10: ";
 			switch($q10sub)
 				{
-						case 1:
+						case 3:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -160,7 +160,7 @@
 				}
 			echo "<h2>You got ". $totalCorrect . "/10 correct</h2>";
 			//Change this to your personal page
-			echo "<a href=\"javaPersonal.php\" class=\"btn btn-primary col-sm-2\">Back to Java</a><br><br></div></div>"		
+			echo "<a href=\"javaPersonal.php\" class=\"btn btn-primary col-sm-2\">Back to Java</a><br><br></div></div>"
 		?>
 	</section>
 </section>

@@ -60,7 +60,7 @@
                         <div class="row">
                             <div class="col-md-9"></div>
                             <div class="col-md-3">
-                                <h5>September 22, 2016</h5>
+                                <h5 class=" pull-right">September 22, 2016</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->
@@ -95,7 +95,7 @@
                         <div class="row">
                             <div class="col-md-9"></div>
                             <div class="col-md-3">
-                                <h5>October 22, 2016</h5>
+                                <h5 class=" pull-right">October 22, 2016</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->
@@ -130,14 +130,14 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Blog Title</h3>
+                                <h3>Strict Mode</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
                             <div class="col-md-9"></div>
                             <div class="col-md-3">
-                                <h5>September 23, 2016</h5>
+                                <h5 class=" pull-right">September 23, 2016</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->
@@ -164,14 +164,14 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Blog Title</h3>
+                                <h3>Generated Columns</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
                             <div class="col-md-9"></div>
                             <div class="col-md-3">
-                                <h5>October 4, 2016</h5>
+                                <h5 class=" pull-right">October 4, 2016</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->
@@ -226,9 +226,9 @@
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <h5>November 3, 2016</h5>
+                            <div class="col-md-9"></div>
+                            <div class="col-md-3">
+                                <h5 class=" pull-right">November 3, 2016</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->
@@ -279,9 +279,9 @@
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <h5>November 17, 2016</h5>
+                            <div class="col-md-9"></div>
+                            <div class="col-md-3">
+                                <h5 class=" pull-right">November 17, 2016</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->
@@ -340,9 +340,9 @@
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <h5>December 12, 2016</h5>
+                            <div class="col-md-9"></div>
+                            <div class="col-md-3">
+                                <h5 class=" pull-right">November 12, 2016</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->
@@ -385,9 +385,9 @@
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <h5>Blog Date</h5>
+                            <div class="col-md-9"></div>
+                            <div class="col-md-3">
+                                <h5 class=" pull-right">Blog Date</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->
@@ -424,9 +424,9 @@
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <h5>Blog Date</h5>
+                            <div class="col-md-9"></div>
+                            <div class="col-md-3">
+                                <h5 class=" pull-right">September 29, 2016</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->
@@ -472,9 +472,9 @@
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <h5>Blog Date</h5>
+                            <div class="col-md-9"></div>
+                            <div class="col-md-3">
+                                <h5 class=" pull-right">November 1, 2016</h5>
                             </div>
                         </div>
                         <!--Blog Post itself-->

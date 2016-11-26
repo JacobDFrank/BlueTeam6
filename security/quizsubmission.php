@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Submission</title>
+    <title>Ryan on Security: Quiz Submission</title>
     <?php include '../inner-head.php' ?>
 </head>
 <body>
@@ -9,7 +9,7 @@
 <section class="container">
 	<section class= "row">
 		<section class="row tutorial_content-row">
-        <h1 class="col-md-7 col-xs-12 tutorial_header">Results</h1>
+        <h1 class="col-md-7 col-xs-12 tutorial_header">Security Quiz Results</h1>
         <section class="col-md-2"></section> <!-- spacer -->
          <img src="../images/ryan.png" alt="Picture of author" class="col-md-3 col-xs-6">
       </section>
@@ -158,7 +158,7 @@
 							echo "Oops! The Correct answer was option : ". $answer10 ."<br>";
 							break;
 				}
-			echo "<h2>You got ". $totalCorrect . "/10 correct</h2>";
+			echo "<h2>You got ". $totalCorrect . "/10 correct</h2><br/>";
 			//Change this to your personal page
 			echo "<a href=\"personal.php\" class=\"btn btn-primary col-sm-2\">Back to Security</a><br><br></div></div>"
 		?>

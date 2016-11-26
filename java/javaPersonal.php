@@ -45,10 +45,8 @@
             <h2>Testimonials</h2>
             <div class="col-md-6">
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="" alt=""/>
-                    </div>
-                    <div class="col-md-9">
+                    <img class="col-md-4" src="../images/personal/java/stockguy.jpg" alt="John McLane"/>
+                    <div class="col-md-8">
                         <!--Image of man -->
                         <p>"Wow, you know I never knew that making a ‘GUI’ was that simple. As a business owner, I feel that I can use the information that I learned to make informed decisions then next time that my POS terminals are due for an update. Heck, I may do it myself next time! Thank you Blue team 6!" - John Doe</p>
                     </div>
@@ -56,10 +54,8 @@
             </div>
             <div class="col-md-6 pull-right">
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="" alt=""/>
-                    </div>
-                    <div class="col-md-9">
+                    <img class="col-md-4" src="../images/personal/java/stockgirl.jpg" alt="Joann Harvey"/>
+                    <div class="col-md-8">
                         <!--Image of a woman -->
                         <p>"Wow, you know I never knew that making a ‘GUI’ was that simple. As a business owner, I feel that I can use the information that I learned to make informed decisions then next time that my POS terminals are due for an update. Heck, I may do it myself next time! Thank you Blue team 6!" - John Doe" - Jane Doe</p>
                       

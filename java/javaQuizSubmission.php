@@ -28,12 +28,12 @@
 			$q10sub = $_POST['optradio10'];
 
 			//Change correct $answer#= X to the correct answer and move case statements accordingly 
-			$answer1 = 1;
+			$answer1 = 4;
 			echo "<div class = \"container\"><div class= \"well\">";
 			echo "Question 1: ";
 			switch($q1sub)
 				{
-						case 1:
+						case 4:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -55,11 +55,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer3 = 1;
+			$answer3 = 2;
 			echo "Question 3: ";
 			switch($q3sub)
 				{
-						case 1:
+						case 2:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -81,11 +81,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer5 = 1;
+			$answer5 = 2;
 			echo "Question 5: ";
 			switch($q5sub)
 				{
-						case 1:
+						case 2:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -107,11 +107,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer7 = 1;
+			$answer7 = 3;
 			echo "Question 7: ";
 			switch($q7sub)
 				{
-						case 1:
+						case 3:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -133,11 +133,11 @@
 							break;
 				}
 			echo "</br></br>";
-			$answer9 = 1;
+			$answer9 = 2;
 			echo "Question 2: ";
 			switch($q2sub)
 				{
-						case 1:
+						case 2:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
@@ -158,8 +158,8 @@
 							echo "Oops! The Correct answer was question : ". $answer10 ."<br>";
 							break;
 				}
-			echo "<h2>You got ". $totalCorrect . "/10 correct</h2></div></div>";
-				
+			echo "<h2>You got ". $totalCorrect . "/10 correct</h2>";
+			echo "<a href=\"javaPersonal.php\" class=\"btn btn-primary col-sm-2\">Back to Java</a><br><br></div></div>"		
 		?>
 	</section>
 </section>

@@ -38,7 +38,7 @@
 							$totalCorrect += 1;
 							break;
 						default:
-							echo "Oops! The Correct answer was question : ". $answer1;
+							echo "Oops! The Correct answer was option : ". $answer1 ."<br/>";
 							break;
 				}
 			echo "</br></br>";
@@ -51,7 +51,7 @@
 							$totalCorrect += 1;
 							break;
 						default:
-							echo "Oops! The Correct answer was question : ". $answer2;
+							echo "Oops! The Correct answer was option : ". $answer2 ."<br/>";
 							break;
 				}
 			echo "</br></br>";
@@ -64,7 +64,7 @@
 							$totalCorrect += 1;
 							break;
 						default:
-							echo "Oops! The Correct answer was question : ". $answer3;
+							echo "Oops! The Correct answer was option : ". $answer3 ."<br/>";
 							break;
 				}
 			echo "</br></br>";
@@ -77,7 +77,7 @@
 							$totalCorrect += 1;
 							break;
 						default:
-							echo "Oops! The Correct answer was question : ". $answer1;
+							echo "Oops! The Correct answer was option : ". $answer4 ."<br/>";
 							break;
 				}
 			echo "</br></br>";
@@ -90,7 +90,7 @@
 							$totalCorrect += 1;
 							break;
 						default:
-							echo "Oops! The Correct answer was question : ". $answer5;
+							echo "Oops! The Correct answer was option : ". $answer5 ."<br/>";
 							break;
 				}
 			echo "</br></br>";
@@ -103,7 +103,7 @@
 							$totalCorrect += 1;
 							break;
 						default:
-							echo "Oops! The Correct answer was question : ". $answer6;
+							echo "Oops! The Correct answer was option : ". $answer6 ."<br/>";
 							break;
 				}
 			echo "</br></br>";
@@ -116,7 +116,7 @@
 							$totalCorrect += 1;
 							break;
 						default:
-							echo "Oops! The Correct answer was question : ". $answer7;
+							echo "Oops! The Correct answer was option : ". $answer7 ."<br/>";
 							break;
 				}
 			echo "</br></br>";
@@ -129,20 +129,20 @@
 							$totalCorrect += 1;
 							break;
 						default:
-							echo "Oops! The Correct answer was question : ". $answer8;
+							echo "Oops! The Correct answer was option : ". $answer8 ."<br/>";
 							break;
 				}
 			echo "</br></br>";
 			$answer9 = 4;
 			echo "Question 9: ";
-			switch($q2sub)
+			switch($q9sub)
 				{
 						case 4:
 							echo "Correct. Good Job!";
 							$totalCorrect += 1;
 							break;
 						default:
-							echo "Oops! The Correct answer was question : ". $answer9;
+							echo "Oops! The Correct answer was option : ". $answer9 ."<br/>";
 							break;
 				}
 			echo "</br></br>";
@@ -155,7 +155,7 @@
 							$totalCorrect += 1;
 							break;
 						default:
-							echo "Oops! The Correct answer was question : ". $answer10 ."<br>";
+							echo "Oops! The Correct answer was option : ". $answer10 ."<br>";
 							break;
 				}
 			echo "<h2>You got ". $totalCorrect . "/10 correct</h2>";
@@ -164,5 +164,6 @@
 		?>
 	</section>
 </section>
+    <?php include '../footer.php' ?>
 </body>
 </html>

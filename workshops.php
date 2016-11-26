@@ -2,7 +2,7 @@
 <html lang="en">
 
 	<head>
-		<title>Contact</title>
+		<title>Workshops</title>
 		<?php include 'head.php' ?>
 	</head>
 

@@ -5,13 +5,13 @@
     <?php include '../inner-head.php' ?>
 </head>
 <body>
-    <?php include '../header.php' ?>
+    <?php include '../inner-header.php' ?>
 <section class="container">
 	<section class= "row">
 		<section class="row tutorial_content-row">
         <h1 class="col-md-7 col-xs-12 tutorial_header">Results</h1>
         <section class="col-md-2"></section> <!-- spacer -->
-         <img src="../images/andrew.jpg" alt="Picture of author" class="col-md-3 col-xs-6">
+         <img src="../images/ryan.png" alt="Picture of author" class="col-md-3 col-xs-6">
       </section>
 		<?php
 			$totalCorrect = 0;
@@ -160,7 +160,7 @@
 				}
 			echo "<h2>You got ". $totalCorrect . "/10 correct</h2>";
 			//Change this to your personal page
-			echo "<a href=\"javaPersonal.php\" class=\"btn btn-primary col-sm-2\">Back to Java</a><br><br></div></div>"
+			echo "<a href=\"personal.php\" class=\"btn btn-primary col-sm-2\">Back to Security</a><br><br></div></div>"
 		?>
 	</section>
 </section>

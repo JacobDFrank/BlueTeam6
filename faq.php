@@ -88,6 +88,36 @@
 				</p>
 			</div>
 			<div>
+					<h2>Java</h2>
+				</div>	
+				<div class = "row well">
+				<p>
+					Q: What is polymorphism?
+				</p>	
+				<p>
+					A: Polymorphism in Java allows for classes to be compatible with other classes as long as both classes are related to eachother. Think of it like this: you just bought a new sports car with tons of additional features. At the most basic form, your car and the most basic state of the car will be the same except yours has extra features. Look at this example:<br>
+						<code>
+						public interface Automobile{}<br>
+						public class Car{}<br>
+						public class SportsCar extends Car implements Automobile{}<br>
+						</code>
+					The additional features show that your car is more specific than just the standard version of the car. So with this logic: <br>
+						<code>
+						SportsCar sc = new SportsCar();
+						Car c = sc;
+						Automobile au = sc;
+						</code>
+					This shows that the SportsCar IS-A Car as well as SportsCar IS-A Automobile. This is polymorphism in Java.
+				</p>
+				<p>	
+					Q: In what method should all my code be in Java?
+				</p>
+				<p>
+					A: All logic in Java MUST be run at some point by the MAIN method in java. Code can be written in other classes and methods, but will only be used if called in the MAIN method. Here is an example  of a main method declaration: <br>
+					<code> public static void main(String args[]){} </code>
+				</p>
+			</div>
+			<div>
 				<h2>Android</h2>
 			</div>
 			<div class = "row well">

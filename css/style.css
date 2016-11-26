@@ -39,6 +39,11 @@ code {
     margin: 10px;
 }
 
+.no-side-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 /* homepage */
 .homepage_header {
     text-decoration: underline;

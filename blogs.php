@@ -25,7 +25,7 @@
             </section>
 
             <!--Little Navigation bar-->
-            <section class="row well">
+            <section class="row well no-side-margin">
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <ul class="blogNav">

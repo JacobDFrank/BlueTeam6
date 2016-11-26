@@ -12,7 +12,7 @@
 				<div>
 					<h2>Database</h2>
 				</div>
-				<div class = "row">
+				<div class = "row well">
 					<p>	
 						Q: Which version of MySQL is the best to install onto my machine?
 					</p>	
@@ -35,7 +35,7 @@
 				<div>
 					<h2>Security</h2>
 				</div>
-				<div class = "row">
+				<div class = "row well">
 					<p>
 						Q: Why should I be worried about security?
 					</p>
@@ -52,7 +52,7 @@
 				<div>
 					<h2>HTML/CSS</h2>
 				</div>	
-				<div class = "row">
+				<div class = "row well">
 				<p>
 					Q: What is HTML?
 				</p>	
@@ -83,7 +83,7 @@
 			<div>
 				<h2>Android</h2>
 			</div>
-			<div class = "row">
+			<div class = "row well">
 				<p>
 					Q: How do I force the keyboard to show in Android?
 				</p>

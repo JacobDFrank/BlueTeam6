@@ -159,7 +159,7 @@
 							break;
 				}
 			echo "<h2>You got ". $totalCorrect . "/10 correct</h2>";
-			echo "<a href=\"javaPersonal.php\" class=\"btn btn-primary col-sm-2\">Back to Java</a><br><br></div></div>"		
+			echo "<a href=\"javaPersonal.php\" class=\"btn btn-primary col-sm-2\">Back to course</a><br><br></div></div>"		
 		?>
 	</section>
 </section>

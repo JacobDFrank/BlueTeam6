@@ -103,9 +103,9 @@
 						</code>
 					The additional features show that your car is more specific than just the standard version of the car. So with this logic: <br>
 						<code>
-						SportsCar sc = new SportsCar();
-						Car c = sc;
-						Automobile au = sc;
+						SportsCar sc = new SportsCar();<br>
+						Car c = sc;<br>
+						Automobile au = sc;<br>
 						</code>
 					This shows that the SportsCar IS-A Car as well as SportsCar IS-A Automobile. This is polymorphism in Java.
 				</p>

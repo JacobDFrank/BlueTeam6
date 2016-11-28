@@ -59,7 +59,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Topic Expansion!</h3>
+                                <h3 id="security1">Topic Expansion!</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -94,7 +94,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Moar Security!</h3>
+                                <h3 id="security2">Moar Security!</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -136,7 +136,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Strict Mode</h3>
+                                <h3 id="database1">Strict Mode</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -170,7 +170,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Generated Columns</h3>
+                                <h3 id="database2">Generated Columns</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -227,7 +227,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Split Screen in Android Nougat</h3>
+                                <h3 id="android1">Split Screen in Android Nougat</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -280,7 +280,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Custom Quick Settings Tile in Android Nougat</h3>
+                                <h3 id="android2">Custom Quick Settings Tile in Android Nougat</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -341,7 +341,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Styling a Blog Post</h3>
+                                <h3 id="web1">Styling a Blog Post</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -386,7 +386,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Blog Title</h3>
+                                <h3 id="web2">Blog Title</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -425,7 +425,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Lambda Expressions</h3>
+                                <h3 id="java1">Lambda Expressions</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -473,7 +473,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h3>Java 9</h3>
+                                <h3 id="java2">Java 9</h3>
                             </div>
                             <div class="col-md-3"></div>
                         </div>

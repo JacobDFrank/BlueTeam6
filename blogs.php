@@ -440,7 +440,7 @@
                             <div class="col-md-1"></div>
                             <div class="col-md-10">
                                 <p>
-                                    Are you looking to save some time when programming? In Java’s latest update Java 8, Oracle has implemented Lambda Expressions. You may be asking- “What in the world are Lambda Expressions and why are they so important?” Look at the following code:
+                                    Are you looking to save some time when programming? In Java’s latest update Java 8, Oracle has implemented Lambda Expressions. You may be asking- “What in the world are Lambda Expressions and why are they so important?” Look at the following code:<br>
                                     <code>//Old way:<br />
                                         button.addActionListener(new ActionListener() {<br />
                                             @Override<br />
@@ -454,7 +454,7 @@
                                                 System.out.println("The button was clicked. From lambda expressions !");<br />
                                         });<br />
                                     </code><br />
-                                    Source: <a href="http://viralpatel.net/blogs/lambda-expressions-java-tutorial/">http://viralpatel.net/blogs/lambda-expressions-java-tutorial/</a><br />
+                                    <a href="http://viralpatel.net/blogs/lambda-expressions-java-tutorial/">Source</a><br />
                                     If you look at the <em>old way</em> that you would have created the action of a button click, there is nothing wrong with it- and it works. But what if you could do the same task in fewer lines? Lambda expressions allow for this button to both be <em>created</em> and <em>implemented</em> in the same expression.<br />
                                     These expressions are useful due to the fact that they reduce the amount of code needed- which reduces the amount of memory needed.
                                 </p>

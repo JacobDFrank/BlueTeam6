@@ -19,7 +19,7 @@ nav.navbar.navbar-fixed-top.p-a-9.nav {
 /* fix logo color */
 .navbar a:hover {
     color: white;
-
+    text-decoration: underline;
 }
 
 .navbar-nav li a:hover {

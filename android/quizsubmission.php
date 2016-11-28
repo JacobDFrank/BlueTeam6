@@ -120,7 +120,7 @@
 		}
 	$answer9 = 2;
 	echo "Question 9: ";
-	switch($q2sub)
+	switch($q9sub)
 		{
 				case $answer9:
                     echo "Correct. Good Job! <br/>";

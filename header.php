@@ -21,7 +21,7 @@
                     <a id="courses" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a id="java" href="java/javaPersonal.php">Java</a></li>
-                        <li><a id="web" href="#">HTML/CSS</a></li>
+                        <li><a id="web" href="web/webPersonal.php">HTML/CSS</a></li>
                         <li><a id="android" href="android/personal.php">Android</a></li>
                         <li><a id="security" href="security/personal.php">Computer Security</a></li>
                         <li><a id="database" href="#">Database Programming</a></li>

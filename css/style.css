@@ -62,6 +62,44 @@ code {
     text-indent: 1em;
 }
 
+
+/* pad cells */
+.homepage_newsletter-table > div > div {
+    padding: 5px;
+}
+
+/* margin below rows in single column */
+.homepage_newsletter-table > div {
+    margin-bottom: 10px;
+}
+
+.homepage_newsletter-tr-heading {
+    font-weight: bold;
+    display: none;
+}
+
+/* build the table on desktop */
+@media (min-width: 300px) {
+    .homepage_newsletter-tr-heading {
+        display: block;
+    }
+
+    .homepage_newsletter-table {
+        display: table;
+        margin-bottom: 20px;
+    }
+
+    .homepage_newsletter-table > div {
+        display: table-row;
+        margin-bottom: 0;
+    }
+
+    .homepage_newsletter-table > div > div {
+        display: table-cell;
+        padding: 10px;
+    }
+}
+
 /* tutorial */
 .tutorial_header {
     text-decoration: underline;

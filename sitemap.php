@@ -13,11 +13,11 @@
 		Courses
 		<br>
 		<ul style="margin-left=10px;">
-			   <li><a href="#">Java</a></li>
+			   <li><a href="java/javaPersonal.php">Java</a></li>
 			   <li><a href="#">HTML/CSS</a></li>
-			   <li><a href="#">Android</a></li>
-			   <li><a href="#">Security</a></li>
-			   <li><a href="#">Database</a></li>
+			   <li><a href="android/personal.php">Android</a></li>
+			   <li><a href="security/personal.php">Security</a></li>
+			   <li><a href="database/personal.php">Database</a></li>
 		</ul>
 		<a href="workshops.php">Workshops</a>
 		<br>

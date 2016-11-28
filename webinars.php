@@ -12,7 +12,6 @@
             background: #FF9800;
         }
     </style>
-
     <div class="container">
         <h1>Webinars</h1>
 

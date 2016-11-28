@@ -145,6 +145,6 @@
 	echo "You got ". $totalCorrect . "/10 correct.</div></div>";
 		
 ?>
-<?php include '../footer.php' ?>
+<?php include '../inner-footer.php' ?>
 </body>
 </html>

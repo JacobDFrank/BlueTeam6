@@ -101,13 +101,13 @@
             <p class="homepage_section-paragraph">Featured blogs this week are:</p>
             <section class="homepage_newsletter-table">
                 <div>
-                    <div><a href="http://kelvin.ist.rit.edu/~blueteam/project/blogs.php#database1">Database - Strict Mode</a></div>
+                    <div><a href="blogs.php#database1">Database - Strict Mode</a></div>
                 </div>
                 <div>
-                    <div><a href="http://kelvin.ist.rit.edu/~blueteam/project/blogs.php#android1">Android - Split Screen in Android Nougat</a></div>
+                    <div><a href="blogs.php#android1">Android - Split Screen in Android Nougat</a></div>
                 </div>
                 <div>
-                    <div><a href="http://kelvin.ist.rit.edu/~blueteam/project/blogs.php#java1">Java - Lambda Expressions</a></div>
+                    <div><a href="blogs.php#java1">Java - Lambda Expressions</a></div>
                 </div>
             </section>
         </div>

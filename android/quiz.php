@@ -180,6 +180,6 @@
       </div>
     </div>
 </div>
-<?php include '../footer.php' ?>
+<?php include '../inner-footer.php' ?>
 </body>
 </html>

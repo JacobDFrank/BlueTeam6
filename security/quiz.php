@@ -30,7 +30,7 @@
           <div class="radio">
             <label><input type="radio" name="optradio1" value = 4>D. Prevent hackers from defacing/changing your systems</label>
           </div>
-        </div>
+<!--        </div>-->
         <div class="well">
         <p>2) What is SQL injection?</p>
           <div class="radio">
@@ -171,6 +171,6 @@
       </div>
     </div>
 </div>
-<?php include '../footer.php' ?>
+<?php include '../inner-footer.php' ?>
 </body>
 </html>

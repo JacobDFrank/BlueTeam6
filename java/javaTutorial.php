@@ -236,6 +236,6 @@
         </section>
     </section>
 </section>
-<?php include '../footer.php' ?>
+<?php include '../inner-footer.php' ?>
 </body>
 </html>

@@ -22,8 +22,9 @@ nav.navbar.navbar-fixed-top.p-a-9.nav {
     text-decoration: underline;
 }
 
+/* navbar links */
 .navbar-nav li a:hover {
-    background-color: #BBDEFB;
+    background-color: #1976D2;
 }
 
 .dropdown-menu a{

@@ -17,9 +17,7 @@
 
     <!-- title and subheader -->
     <section class="row">
-        <div class="homepage_column col-md-5">
-            <h2 class="homepage_header">Blue Team 6</h2>
-        </div>
+        <div class="homepage_column col-md-5"></div>
         <div class="homepage_column col-md-7"></div> <!-- spacer -->
     </section>
 

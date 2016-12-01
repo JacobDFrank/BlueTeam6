@@ -3,6 +3,7 @@
 
 	<head>
 		<title>Workshops</title>
+		<script src="js/workshop_table.js"></script>
 		<?php include 'head.php' ?>
 	</head>
 
@@ -42,6 +43,10 @@
                     <th>Workshop</th>
                     <th>Date</th>
                     <th>Time</th>
+                    <th>Cost ($)</th>
+		    <th>Enrollment (max 100)</th>
+		    <th>Sign Up</th>
+		    <th>Leave the Class</th>
                   </tr>
                 </thead>
                 <tbody>

@@ -31,7 +31,7 @@ if($result->num_rows>0){ //num_rows is meta data retrieved from the query
       echo "<td class=$count>$".$row['cost']."</td>";
       echo "<td class=$count>".$row['enrolled']."/100</td>";
       echo "<td class=$count onclick('tellMySQL(this.className)')><input type='button' value='Add' class='btn btn-primary' </input></td>";
-      echo "<td class=$count><input type='button' value='Drop' class='btn btn-primary'</input></td>";
+      echo "<td class=$count><input type='button' value='Drop' class='btn btn-danger'</input></td>";
       echo "</tr>";
       $count+=1;
       }

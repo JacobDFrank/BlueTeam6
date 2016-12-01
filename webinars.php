@@ -15,7 +15,7 @@
     <div class="container">
         <h1>Webinars</h1>
 
-        <section class="row">
+        <section class="row flexwell">
             <div class="well col-lg-5 col-sm-12">
             <div class="text-center">
                 <h2>Android Webinar I</h2>
@@ -37,7 +37,7 @@
             </div>
         </section>
 
-        <section class="row">
+        <section class="row flexwell">
               <div class="well col-lg-5 col-sm-12">
               <div class="text-center">
                   <h2>Security Webinar I</h2>
@@ -59,7 +59,7 @@
             </div>
         </section>
 
-        <section class="row">
+        <section class="row flexwell">
               <div class="well col-lg-5 col-sm-12">
               <div class="text-center">
                   <h2>HTML/CSS Webinar I</h2>
@@ -81,7 +81,7 @@
             </div>
         </section>
 
-        <section class="row">
+        <section class="row flexwell">
               <div class="well col-lg-5 col-sm-12">
               <div class="text-center">
                   <h2>Java Webinar I</h2>
@@ -103,7 +103,7 @@
             </div>
         </section>
 
-        <section class="row">
+        <section class="row flexwell">
               <div class="well col-lg-5 col-sm-12 ">
               <div class="text-center">
                   <h2>Database Webinar I</h2>

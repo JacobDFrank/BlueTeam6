@@ -33,7 +33,9 @@ code {
 .centered {
     text-align: center;
 }
-
+.flexwell{
+    display:flex;
+}
 /* nested wells get reduced margins*/
 .well > .well {
     margin: 10px;

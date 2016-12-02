@@ -3,7 +3,10 @@
 
 	<head>
 		<title>Workshops</title>
+        <!-- Following scripts used solely to update SQL DB -->
 		<script src="js/workshop_table.js"></script>
+        <!-- integrity and crossorigin are used validate imported script -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 		<?php include 'head.php' ?>
 	</head>
 

@@ -4,16 +4,13 @@
         //Check number of enrolled first
         $sqlSELECT = "SELECT enrolled FROM workshops";
         $result = $conn->query($sqlSELECT);
-        echo "<script>console.log($result->num_rows)</script>";
         if($result->num_rows >0){ //num_rows is meta data retrieved from the query
             $row = $result->fetch_assoc();
             $list = (int)$row['enrolled'];
-            echo "<script>console.log(\"lol\")</script>";
             if($list < 100){
-                $sqlUpdate = "update workshops set enrolled = enrolled + 1 where name = ".$workshop;
+                $sqlUpdate = "update workshops set enrolled = enrolled + 1 where workshopName = '".$workshop."'";
                 $conn->query($sqlUpdate);
                 header("Location: ../workshops.php");
-                echo "<script>console.log(\"fred\")</script>";
             }else{
                 header("Location: ../workshops.php");
             }
@@ -45,7 +42,7 @@
     $password = "fr1end";
     $dbname = "blueteam";
     $table = "workshops";
-//    echo "<script>console.log(\"pop\")</script>";
+    echo "<script>console.log(\"pop\")</script>";
 
     //Connect to mySQL server
     $conn = new mysqli($servername, $username, $password, $dbname);

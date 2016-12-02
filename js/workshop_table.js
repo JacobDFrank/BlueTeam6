@@ -5,7 +5,10 @@ function addPerson(className) {
     $.ajax({
         type: 'POST',
         url: '/~blueteam/project/php/workshop-process.php',
-        data: { type: "add", name: workshopName }
+        data: { type: "add", name: workshopName },
+        success:function() {
+         window.location.reload();
+      }
     });
 }
 

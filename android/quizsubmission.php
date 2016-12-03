@@ -34,6 +34,8 @@
 					echo "Oops! The correct answer was question : ". $answer1 ."<br/>";
 					break;
 		}
+    echo "<br/><br/>";
+
 	$answer2 = 3;
 	echo "Question 2: ";
 	switch($q2sub)
@@ -46,6 +48,8 @@
 					echo "Oops! The correct answer was question : ". $answer2 ."<br/>";
 					break;
 		}
+    echo "<br/><br/>";
+
 	$answer3 = 1;
 	echo "Question 3: ";
 	switch($q3sub)
@@ -58,6 +62,8 @@
 					echo "Oops! The correct answer was question : ". $answer3 ."<br/>";
 					break;
 		}
+    echo "<br/><br/>";
+
 	$answer4 = 4;
 	echo "Question 4: ";
 	switch($q4sub)
@@ -70,6 +76,8 @@
 					echo "Oops! The correct answer was question : ". $answer4 ."<br/>";
 					break;
 		}
+    echo "<br/><br/>";
+
 	$answer5 = 4;
 	echo "Question 5: ";
 	switch($q5sub)
@@ -82,6 +90,8 @@
 					echo "Oops! The correct answer was question : ". $answer5 ."<br/>";
 					break;
 		}
+    echo "<br/><br/>";
+
 	$answer6 = 1;
 	echo "Question 6: ";
 	switch($q6sub)
@@ -94,6 +104,8 @@
 					echo "Oops! The correct answer was question : ". $answer6 ."<br/>";
 					break;
 		}
+    echo "<br/><br/>";
+
 	$answer7 = 3;
 	echo "Question 7: ";
 	switch($q7sub)
@@ -106,6 +118,8 @@
 					echo "Oops! The correct answer was question : ". $answer7 ."<br/>";
 					break;
 		}
+    echo "<br/><br/>";
+
 	$answer8 = 4;
 	echo "Question 8: ";
 	switch($q8sub)
@@ -118,6 +132,8 @@
 					echo "Oops! The correct answer was question : ". $answer8 ."<br/>";
 					break;
 		}
+    echo "<br/><br/>";
+
 	$answer9 = 2;
 	echo "Question 9: ";
 	switch($q9sub)
@@ -130,6 +146,8 @@
 					echo "Oops! The correct answer was question : ". $answer9 ."<br/>";
 					break;
 		}
+    echo "<br/><br/>";
+
 	$answer10 = 3;
 	echo "Question 10: ";
 	switch($q10sub)
@@ -142,8 +160,9 @@
 					echo "Oops! The correct answer was question : ". $answer10 ."<br/>";
 					break;
 		}
-	echo "You got ". $totalCorrect . "/10 correct.</div></div>";
-		
+    echo "<h2>You got ". $totalCorrect . "/10 correct</h2>";
+    echo "<a href=\"personal.php\" class=\"btn btn-primary col-sm-2\">Back to Android</a><br/><br/></div></div>";
+
 ?>
 <?php include '../inner-footer.php' ?>
 </body>

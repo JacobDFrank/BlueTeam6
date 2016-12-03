@@ -108,6 +108,13 @@
                     <div><a href="blogs.php#java1">Java - Lambda Expressions</a></div>
                 </div>
             </section>
+
+            <!-- sign up form -->
+            <form name="SubscribeForm" action="subscribe.php"  onsubmit="" method="post" class="homepage_subscribe-form">
+                <h3>Want to recieve this in your email? Subscribe to our newsletter!</h3>
+                <input type="email" name="email" placeholder="Your email" class="homepage_subscribe-email" required/>
+                <input type="submit" name="submit" value="Subscribe" class="btn btn-primary"/>
+            </form>
         </div>
         <div class="homepage_column col-md-2"></div> <!-- spacer -->
     </section>

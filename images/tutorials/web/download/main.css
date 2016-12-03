@@ -1,0 +1,13 @@
+p{
+  font-family: “Verdana”;
+  font-size: 18pt;
+  color: red;
+}
+.content{
+  color: blue;
+}
+#info {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}

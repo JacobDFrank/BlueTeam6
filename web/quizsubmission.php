@@ -21,7 +21,7 @@
 	$q10sub = $_POST['optradio10'];
 
 	//Change correct $answer#= X to the correct answer and move case statements accordingly
-	$answer1 = 2;
+	$answer1 = 1;
 	echo "<div class = \"container\"><div class= \"well\">";
 	echo "Question 1: ";
 	switch($q1sub)
@@ -46,7 +46,7 @@
 					echo "Oops! The correct answer was question : ". $answer2 ."<br/>";
 					break;
 		}
-	$answer3 = 1;
+	$answer3 = 4;
 	echo "Question 3: ";
 	switch($q3sub)
 		{
@@ -70,7 +70,7 @@
 					echo "Oops! The correct answer was question : ". $answer4 ."<br/>";
 					break;
 		}
-	$answer5 = 4;
+	$answer5 = 2;
 	echo "Question 5: ";
 	switch($q5sub)
 		{
@@ -82,7 +82,7 @@
 					echo "Oops! The correct answer was question : ". $answer5 ."<br/>";
 					break;
 		}
-	$answer6 = 1;
+	$answer6 = 2;
 	echo "Question 6: ";
 	switch($q6sub)
 		{
@@ -106,7 +106,7 @@
 					echo "Oops! The correct answer was question : ". $answer7 ."<br/>";
 					break;
 		}
-	$answer8 = 4;
+	$answer8 = 2;
 	echo "Question 8: ";
 	switch($q8sub)
 		{
@@ -118,7 +118,7 @@
 					echo "Oops! The correct answer was question : ". $answer8 ."<br/>";
 					break;
 		}
-	$answer9 = 2;
+	$answer9 = 4;
 	echo "Question 9: ";
 	switch($q9sub)
 		{

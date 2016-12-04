@@ -24,7 +24,7 @@
                         <li><a id="web" href="web/webPersonal.php">HTML/CSS</a></li>
                         <li><a id="android" href="android/personal.php">Android</a></li>
                         <li><a id="security" href="security/personal.php">Computer Security</a></li>
-                        <li><a id="database" href="#">Database Programming</a></li>
+                        <li><a id="database" href="database/personal.php">Database Programming</a></li>
                     </ul>
                 </li>
                 <li><a id="blogs" href="blogs.php">Blog</a></li>

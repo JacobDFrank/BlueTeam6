@@ -11,7 +11,7 @@
         #courses {
             background: #FF9800 !important;
         }
-        #android {
+        #database {
             background: #FF9800 !important;
             color: white !important;
         }
@@ -47,7 +47,7 @@
             <h2>Testimonials</h2>
             <div class="col-md-6">
                 <div class="row">
-                    <img class="col-md-4" src="../images/testimonial/database/guy.jpg" alt="John Doe"/>
+                    <img class="col-md-4" src="../images/testimonials/database/guy.jpg" alt="John Doe"/>
                     <div class="col-md-8">
                         <p>"I have recently just started learning to code in MySQL and as a beginner I'm glad I found this tutorial. It made learning how to make databases really simple! Now I feel like I have a really strong foundation on MySQL and it has translated well into writing in other database languages like Oracle." - Kyle Matthews</p>
                     </div>
@@ -55,7 +55,7 @@
             </div>
             <div class="col-md-6 pull-right">
                 <div class="row">
-                    <img class="col-md-4" src="../images/testimonial/database/girl.jpg" alt="Jane Doe"/>
+                    <img class="col-md-4" src="../images/testimonials/database/girl.jpg" alt="Jane Doe"/>
                     <div class="col-md-8">
                         <p>"Even though I already have experince with databases and have had 2 co-ops in that field of work I can still learn something new from the tutorial. Not only that but I've  kept up with the blog posts to see if there is anything else that I should look out for that can be really helpful for me whenever I'm learning more about SQL." - Jordan Lopez</p>
                     </div>

@@ -13,7 +13,7 @@
       <section class="row tutorial_content-row">
         <h1 class="col-md-7 col-xs-12 tutorial_header">Quiz on: Database Programming</h1>
         <section class="col-md-2"></section> <!-- spacer -->
-         <img src="../images/andrew.jpg" alt="Picture of author" class="col-md-3 col-xs-6">
+         <img src="../images/jesus.jpg" alt="Picture of author" class="col-md-3 col-xs-6">
       </section>
       <section class="well">
         <p>What is the purpose of a database?</p>

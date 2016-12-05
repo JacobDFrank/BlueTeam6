@@ -23,7 +23,7 @@
             </div>
             <div class="col-md-4 col-xs-12">
                 <div class="row">
-                    <a href="quiz.php" class="btn btn-primary col-sm-12 tutorial_quiz-btn">Back to course</a>
+                    <a href="personal.php" class="btn btn-primary col-sm-12 tutorial_quiz-btn">Back to course</a>
                 </div>
                 <div class="row">
                     <a href="quiz.php" class="btn btn-primary col-sm-12 tutorial_quiz-btn">Go to quiz</a>

@@ -18,6 +18,9 @@
                 <li></li>
                 <li>We tried to keep our color scheme as consistent as possible across all of our pages.</li>
 				<li>Our pages are based on templates so they look uniform.</li>
+				<li>We have a list of FAQ that users may ask themselves relating to the content of each of our profiles.</li>
+				<li>Added a sitemap of the entire page that users can see and navigate from there</li>
+				<li>We included this grading to layout evertything we have accomplished thus far in our project</li>
 			</ul>
 		</section>
 	<?php include 'footer.php' ?>	

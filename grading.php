@@ -6,8 +6,8 @@
 </head>
 	<body>
 	<?php include 'header.php' ?>
-		<h1>Grading</h1>
 		<section class="container">
+        <h1>Grading</h1>
 		<h2> What we did well: </h2>
 			<ul>
                 <li>Our newsletter contains upcoming events and featured sections from blogs, workshops, and webinars.

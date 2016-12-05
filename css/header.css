@@ -25,10 +25,19 @@ nav.navbar.navbar-fixed-top.p-a-9.nav {
 /* navbar links */
 .navbar-nav li a:hover {
     background-color: #1976D2;
+    color: white !important; /* header-text-color  */
 }
 
-.dropdown-menu a{
+.dropdown:hover {
+    background-color: #1976D2;
+}
+
+.dropdown-menu a {
     color: #2B98F0 !important;
+}
+
+.dropdown-menu a:hover {
+    color: white !important;
 }
 
 /* brand, links, and dropdowns */
@@ -51,6 +60,7 @@ nav.navbar.navbar-fixed-top.p-a-9.nav {
 
 .navbar-inverse .navbar-toggle:hover {
     background: #1976D2; /* primary-dark-color */
+    color: white; /* header-text-color  */
 }
 
 /* active link */
@@ -65,9 +75,11 @@ nav.navbar.navbar-fixed-top.p-a-9.nav {
 .navbar-inverse .navbar-nav > .open > a:focus {
     background: #2196F3; /* primary-color */
 }
+
 .icon-bar {
     background-color: white;
 }
+
 #header-spacer {
   /*height: 200px;*/
   width: 100%;
@@ -108,9 +120,6 @@ nav.navbar.navbar-fixed-top.p-a-9.nav {
     }
     .navbar-brand {
         font-size: 2.5rem;
-    }
-    .dropdown:hover {
-      background: #e7e7e7;
     }
     .dropdown:hover > .dropdown-menu {
       display: block;

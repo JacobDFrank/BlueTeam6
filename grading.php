@@ -20,6 +20,9 @@
 				<li>We have a list of FAQ that users may ask themselves relating to the content of each of our profiles.</li>
 				<li>Added a sitemap of the entire page that users can see and navigate from there</li>
                 <li>As a team, we set up goals for each week almost every single time, we hit them.</li>
+                <li>Our blog contains topic links, "back to top" links in each section, and blog post ids to link to a specific one.</li>
+                <li>The workshops page features a striped table dynamically generated from a database table.
+                    Each workshop has an "Add" and "Drop" button and a working enrollment count.</li>
 			</ul>
 		</section>
 	<?php include 'footer.php' ?>

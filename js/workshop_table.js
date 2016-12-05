@@ -1,5 +1,6 @@
 function addPerson(className) {
-	className = "name " + className.charAt(0);
+    temp = className.split(" ");
+	className = "name " + temp[0];
 	var workshop = document.getElementsByClassName(className);
     var workshopName = workshop[0].innerText;
     $.ajax({
@@ -17,7 +18,8 @@ function addPerson(className) {
 }
 
 function removePerson(className) {
-	className = "name " + className.charAt(0);
+    temp = className.split(" ");
+	className = "name " + temp[0];
 	var workshop = document.getElementsByClassName(className);
     var workshopName = workshop[0].innerText;
     $.ajax({
